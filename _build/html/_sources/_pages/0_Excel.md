@@ -1,14 +1,12 @@
 
-# Matrices
+# Tutorial - Week 1
 
-In this section:
+Spreadsheets Recap
 
-* [Matrices](matrices-chapter)
-* [Arithmetic operations on matrices](matrix-operations-section)
-* [Matrix Multiplication](matrix-multiplication-section)
-* [Special Matrices](special-matrices-section)
-* [Determinants](determinant-section)
-* [Inverse Matrices](inverse-matrix-section)
-* [Matrix Algebra](matrix-algebra-section)
+* Spreadsheets basics - terminology, where buttons are
+* Sorting and manipulating data
+* Using formulae (maths tools, countif, vlookup)
+* task: build scrabble score calculator
+* CSV files - writing and importing
 
-* [Exercises](matrices-exercises)
+
