@@ -14,9 +14,3 @@ parts:
     sections:
     - glob: _pages/0*
 
-
-
-- caption: ""
-  numbered: false
-  chapters:
-  - file: genindex
