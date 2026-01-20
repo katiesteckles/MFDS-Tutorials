@@ -5,8 +5,8 @@
 
 #######################################################################################
 # Book settings
-title                 : Linear Algebra
-author                : "Dr Katie Steckles (based on original book by Dr Jon Shiach)"
+title                 : Maths for Data Science - Tutorial Content
+author                : "Dr Katie Steckles"
 copyright             : "2025"
 logo                  : "_images/MFDS_logo.png"
 # only_build_toc_files: true
@@ -72,7 +72,7 @@ launch_buttons:
   colab_url                 : "" # The URL of Google Colab (https://colab.research.google.com)
 
 repository:
-  url                       : https://github.com/katiesteckles/LA-book  # The URL to your book's repository
+  url                       : https://github.com/katiesteckles/MFDS-Tutorials  # The URL to your book's repository
   path_to_book              : ""  # A path to your book's folder, relative to the repository root.
   branch                    : main  # Which branch of the repository should be used when creating links
 
