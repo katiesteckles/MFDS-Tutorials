@@ -55,7 +55,7 @@ If the data in your CSV needs to include commas, you can use quote marks to encl
 ```
 Movie title, Release year, Lead actors
 "Monsters, Inc", 2001, "Billy Crystal, John Goodman"
-"Three Billboards Ouside Ebbing, Missouri", 2001, "Frances McDormand, Woody Harrelson"
+"Three Billboards Ouside Ebbing, Missouri", 2017, "Frances McDormand, Woody Harrelson"
 "The Good, The Bad and The Ugly", 1966, "Clint Eastwood, Eli Wallach"
 ```
 
