@@ -9,21 +9,12 @@ parts:
 - caption: Tutorials
   numbered: 3
   chapters:
+  
   - file: _pages/0_Excel
     sections:
     - glob: _pages/0*
 
-  - file: _pages/1_Probability_Stats
-    sections:
-    - glob: _pages/1*
 
-  - file: _pages/2_Descriptive_Stats
-    sections:
-    - glob: _pages/2*
-
-  - file: _pages/3_Probability_Distributions
-    sections:
-    - glob: _pages/3*
 
 - caption: ""
   numbered: false

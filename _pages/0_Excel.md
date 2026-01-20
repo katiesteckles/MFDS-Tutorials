@@ -1,7 +1,7 @@
 
 # Tutorial - Week 1
 
-Spreadsheets Recap
+In this week's tutorial, we will learn or revise how to use spreadsheets to manipulate and store data.
 
 ## Basics
 
