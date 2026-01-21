@@ -27,6 +27,10 @@ A group of cells is called a *range* - the cells A2, A3, A4 and A5 have been col
 
 (a) Download the Excel spreadsheet file linked below, or use a browser to open the Google Sheets version.
 
+[![Excel icon](../_images/excel-icon.png) Tutorial 0 - Spreadsheet Practice.xlsx](../resources/Tutorial 0 - Spreadsheet Practice.xlsx)
+
+[![Google Sheets icon](../_images/sheets-icon.png) Tutorial 0 - Spreadsheet Practice (Google Sheets)](link)
+
 (b) Work through the tabs of the spreadsheet, completing the indicated tasks on each tab.
 
 ```
@@ -65,6 +69,8 @@ Movie title, Release year, Lead actors
 :label: excel-ex2
 
 (a) Download the CSV file linked below.
+
+[![CSV icon](../_images/csv-icon.png) data.csv](../resources/data.csv)
 
 (b) Open the file using a text editor and look at the contents.
 
