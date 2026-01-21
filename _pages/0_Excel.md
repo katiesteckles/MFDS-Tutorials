@@ -74,9 +74,9 @@ Movie title, Release year, Lead actors
 
 (b) Open the file using a text editor and look at the contents.
 
-(c) Create a new blank spreadsheet file, and import the CSV file into the spreadsheet.
+(c) Create a new blank spreadsheet file, and import the CSV file into the spreadsheet. See how it looks in the spreadsheet.
 
-(d) Create a new spreadsheet, and make up some dummy data in the cells of the first tab.
+(d) Create another new blank spreadsheet, and make up some dummy data in the cells of the first tab.
 
 (e) Export the tab as a `.csv` file and look at that file in a text editor.
 
@@ -89,7 +89,7 @@ Movie title, Release year, Lead actors
 
 [![CSV icon](../_images/csv-icon.png)tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv)
 
-(b) Download the CSV file below, showing a list of items from a receipt from a restaurant meal, and who ordered which items. Build a spreadsheet to calculate how much money each person owes.
+(b) Download the CSV file below, showing a list of items from a receipt from a restaurant meal, and who ordered which items. Use it to build a spreadsheet to calculate how much money each person owes, and the total bill.
 
 [![CSV icon](../_images/csv-icon.png)tut0-data3.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data3.csv)
 
