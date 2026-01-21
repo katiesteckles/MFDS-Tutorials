@@ -27,9 +27,9 @@ A group of cells is called a *range* - the cells A2, A3, A4 and A5 have been col
 
 (a) Download the Excel spreadsheet file linked below, or use a browser to open the Google Sheets version.
 
-[![Excel icon](../_images/excel-icon.png) Tutorial 0 - Spreadsheet Practice.xlsx](../resources/Tutorial 0 - Spreadsheet Practice.xlsx)
+[![Excel icon](../_images/excel-icon.png)Tutorial 0 - Spreadsheet Practice.xlsx](https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%200%20-%20Spreadsheet%20Practice.xlsx)
 
-[![Google Sheets icon](../_images/sheets-icon.png) Tutorial 0 - Spreadsheet Practice (Google Sheets)](link)
+[![Google Sheets icon](../_images/sheets-icon.png)Tutorial 0 - Spreadsheet Practice (Google Sheets)](link)
 
 (b) Work through the tabs of the spreadsheet, completing the indicated tasks on each tab.
 
@@ -70,7 +70,7 @@ Movie title, Release year, Lead actors
 
 (a) Download the CSV file linked below.
 
-[![CSV icon](../_images/csv-icon.png) data.csv](../resources/data.csv)
+[![CSV icon](../_images/csv-icon.png)tut0-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data1.csv)
 
 (b) Open the file using a text editor and look at the contents.
 
@@ -87,7 +87,11 @@ Movie title, Release year, Lead actors
 
 (a) Download the CSV file of Scrabble scores below, and import it into a new blank spreadsheet. Use the formulae you learned earlier to make a Scrabble Word Score Calculator. You can add rows and modify the spreadsheet as much as you want - there should be a set of cells you can type a word into and another one that tells you how much it's worth in Scrabble.
 
-(b) -more tasks go here-
+[![CSV icon](../_images/csv-icon.png)tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv)
+
+(b) Download the CSV file below, showing a list of items from a receipt from a restaurant meal, and who ordered which items. Build a spreadsheet to calculate how much money each person owes.
+
+[![CSV icon](../_images/csv-icon.png)tut0-data3.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data3.csv)
 
 ```
 
