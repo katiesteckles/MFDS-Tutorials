@@ -29,7 +29,7 @@ A group of cells is called a *range* - the cells A2, A3, A4 and A5 have been col
 
 [![Excel icon](../_images/excel-icon.png)Tutorial 0 - Spreadsheet Practice.xlsx](https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%200%20-%20Spreadsheet%20Practice.xlsx)
 
-[![Google Sheets icon](../_images/sheets-icon.png)Tutorial 0 - Spreadsheet Practice (Google Sheets)](link)
+[![Google Sheets icon](../_images/sheets-icon.png)Tutorial 0 - Spreadsheet Practice (Google Sheets)](https://docs.google.com/spreadsheets/d/1fO0nU7sfcS_Nw8GIW34C-ip5L_eK6PcVBp16i_VTH5g/copy)
 
 (b) Work through the tabs of the spreadsheet, completing the indicated tasks on each tab.
 
