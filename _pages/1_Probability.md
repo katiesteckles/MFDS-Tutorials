@@ -3,95 +3,23 @@
 
 In this week's tutorial, we will use techniques from probability to complete a mini-project.
 
-## Basics
-
-Two common software packages used for spreadsheets are Microsoft Excel and Google Sheets.
-
-```{figure} /_images/excel-sheets-example.png
-:name: Excel and Sheets examples
-:width: 700
-
-Basic view of Microsoft Excel (left) and Google Sheets (right)
-```
-
-Spreadsheets are laid out in *cells*, and each cell has a unique cell reference - a letter for the column, and a number for the row. In the example, cell C3 is active (selected), and this is indicated in the top left.
-
-Next to that is a *formula bar*, showing the formula which has been typed into the active cell. It is `=B3+1`, indicating this cell should show a number one more than the value found in B3.
-
-A group of cells is called a *range* - the cells A2, A3, A4 and A5 have been coloured blue in the example, and we could denote these as `A2:A5`, using a colon to indicate a range.
-
-## Spreadsheet Practice
-
 ```{exercise}
-:label: excel-ex1
+:label: prob-ex1
 
-(a) Download the Excel spreadsheet file linked below, or use a browser to open the Google Sheets version.
+(a) Download the CSV file linked below, and import it into a spreadsheet.
 
-[![Excel icon](../_images/excel-icon.png)Tutorial 0 - Spreadsheet Practice.xlsx](https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%200%20-%20Spreadsheet%20Practice.xlsx)
+[![CSV icon](../_images/csv-icon.png)tut0-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data1.csv)
 
-[![Google Sheets icon](../_images/sheets-icon.png)Tutorial 0 - Spreadsheet Practice (Google Sheets)](https://docs.google.com/spreadsheets/d/1fO0nU7sfcS_Nw8GIW34C-ip5L_eK6PcVBp16i_VTH5g/copy)
+The data contains a list of stops on the Manchester Metrolink, with their station codes, fare zone and date of opening.
 
-(b) Work through the tabs of the spreadsheet, completing the indicated tasks on each tab.
+(b) Use a `=COUNTIF()` function or a filter to answer the following questions:
 
-```
+i) If I pick a tram stop on the Metrolink at random, what is the probability that it is in Zone 1?
 
-## CSV files
-
-Files with the extension `.csv` are *comma-separated variables*, which can be used to store data in a format that's compatible across different systems. Data in CSV files is separated by commas, with rows of data separated by line breaks, and CSVs can be imported and exported easily from spreadsheets.
-
-```
-item 1, item 2, item 3, item 4
-more items, go here, look at them, lovely items
+ii) If I pick a tram stop on the Metrolink at random, what is the probability that it was opened before the year 2000?
 
 ```
 
-CSVs often have a header row, listing the different categories, then below that, the data itself.
 
-```
-Name, Occupation, Favourite colour
-Spider-Man, crime fighter, red
-Tinky Winky, handbag designer, purple
-Billie, musician, acid green
-```
 
-If the data in your CSV needs to include commas, you can use quote marks to enclose entries so the software doesn't interpret the comma as an extra column.
-
-```
-Movie title, Release year, Lead actors
-"Monsters, Inc", 2001, "Billy Crystal, John Goodman"
-"Three Billboards Ouside Ebbing, Missouri", 2017, "Frances McDormand, Woody Harrelson"
-"The Good, The Bad and The Ugly", 1966, "Clint Eastwood, Eli Wallach"
-```
-
-`.csv` files are essentially text files, and can be opened in a text editor like Notepad (on Windows) or Textedit (on a Mac).
-
-```{exercise}
-:label: excel-ex2
-
-(a) Download the CSV file linked below.
-
-[![CSV icon](../_images/csv-icon.png)tut0-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data1.csv)
-
-(b) Open the file using a text editor and look at the contents.
-
-(c) Create a new blank spreadsheet file, and import the CSV file into the spreadsheet. See how it looks in the spreadsheet.
-
-(d) Create another new blank spreadsheet, and make up some dummy data in the cells of the first tab.
-
-(e) Export the tab as a `.csv` file and look at that file in a text editor.
-
-```
-
-```{exercise}
-:label: excel-ex3
-
-(a) Download the CSV file of Scrabble scores below, and import it into a new blank spreadsheet. Use the formulae you learned earlier to make a Scrabble Word Score Calculator. You can add rows and modify the spreadsheet as much as you want - there should be a set of cells you can type a word into and another one that tells you how much it's worth in Scrabble.
-
-[![CSV icon](../_images/csv-icon.png)tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv)
-
-(b) Download the CSV file below, showing a list of items from a receipt from a restaurant meal, and who ordered which items. Use it to build a spreadsheet to calculate how much money each person owes, and the total bill.
-
-[![CSV icon](../_images/csv-icon.png)tut0-data3.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data3.csv)
-
-```
 
