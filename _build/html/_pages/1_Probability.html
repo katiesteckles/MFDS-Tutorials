@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>1. Week 1 - Spreadsheets Recap &#8212; Maths for Data Science - Tutorial Content</title>
+    <title>Week 2 - Probability &#8212; Maths for Data Science - Tutorial Content</title>
   
   
   
@@ -60,11 +60,10 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/0_Excel';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/1_Probability';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Tutorial Projects" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -127,6 +126,8 @@
       
       
       
+        
+      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -183,8 +184,8 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">1. Week 1 - Spreadsheets Recap</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">1. Week 1 - Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
 </ul>
 </details></li>
 </ul>
@@ -241,7 +242,7 @@
       
       
       
-      <li><a href="../_sources/_pages/0_Excel.md" target="_blank"
+      <li><a href="../_sources/_pages/1_Probability.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -325,7 +326,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 1 - Spreadsheets Recap</h1>
+    <h1>Week 2 - Probability</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -335,9 +336,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics">1.1. Basics</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spreadsheet-practice">1.2. Spreadsheet Practice</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-files">1.3. CSV files</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics">Basics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spreadsheet-practice">Spreadsheet Practice</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-files">CSV files</a></li>
 </ul>
             </nav>
         </div>
@@ -349,17 +350,17 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-1-spreadsheets-recap">
-<h1><span class="section-number">1. </span>Week 1 - Spreadsheets Recap<a class="headerlink" href="#week-1-spreadsheets-recap" title="Link to this heading">#</a></h1>
-<p>In this week’s tutorial, we will learn or revise how to use spreadsheets to manipulate and store data.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="week-2-probability">
+<h1>Week 2 - Probability<a class="headerlink" href="#week-2-probability" title="Link to this heading">#</a></h1>
+<p>In this week’s tutorial, we will use techniques from probability to complete a mini-project.</p>
 <section id="basics">
-<h2><span class="section-number">1.1. </span>Basics<a class="headerlink" href="#basics" title="Link to this heading">#</a></h2>
+<h2>Basics<a class="headerlink" href="#basics" title="Link to this heading">#</a></h2>
 <p>Two common software packages used for spreadsheets are Microsoft Excel and Google Sheets.</p>
 <figure class="align-default" id="excel-and-sheets-examples">
 <a class="reference internal image-reference" href="../_images/excel-sheets-example.png"><img alt="../_images/excel-sheets-example.png" src="../_images/excel-sheets-example.png" style="width: 700px;" />
 </a>
 <figcaption>
-<p><span class="caption-number">Fig. 1.1 </span><span class="caption-text">Basic view of Microsoft Excel (left) and Google Sheets (right)</span><a class="headerlink" href="#excel-and-sheets-examples" title="Link to this image">#</a></p>
+<p><span class="caption-text">Basic view of Microsoft Excel (left) and Google Sheets (right)</span><a class="headerlink" href="#excel-and-sheets-examples" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Spreadsheets are laid out in <em>cells</em>, and each cell has a unique cell reference - a letter for the column, and a number for the row. In the example, cell C3 is active (selected), and this is indicated in the top left.</p>
@@ -367,20 +368,10 @@ document.write(`
 <p>A group of cells is called a <em>range</em> - the cells A2, A3, A4 and A5 have been coloured blue in the example, and we could denote these as <code class="docutils literal notranslate"><span class="pre">A2:A5</span></code>, using a colon to indicate a range.</p>
 </section>
 <section id="spreadsheet-practice">
-<h2><span class="section-number">1.2. </span>Spreadsheet Practice<a class="headerlink" href="#spreadsheet-practice" title="Link to this heading">#</a></h2>
-<div class="exercise admonition" id="excel-ex1">
-
-<p class="admonition-title"><span class="caption-number">Exercise 1.1 </span></p>
-<section id="exercise-content">
-<p>(a) Download the Excel spreadsheet file linked below, or use a browser to open the Google Sheets version.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%200%20-%20Spreadsheet%20Practice.xlsx"><img alt="Excel icon" src="../_images/excel-icon.png" />Tutorial 0 - Spreadsheet Practice.xlsx</a></p>
-<p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1fO0nU7sfcS_Nw8GIW34C-ip5L_eK6PcVBp16i_VTH5g/copy"><img alt="Google Sheets icon" src="../_images/sheets-icon.png" />Tutorial 0 - Spreadsheet Practice (Google Sheets)</a></p>
-<p>(b) Work through the tabs of the spreadsheet, completing the indicated tasks on each tab.</p>
-</section>
-</div>
+<h2>Spreadsheet Practice<a class="headerlink" href="#spreadsheet-practice" title="Link to this heading">#</a></h2>
 </section>
 <section id="csv-files">
-<h2><span class="section-number">1.3. </span>CSV files<a class="headerlink" href="#csv-files" title="Link to this heading">#</a></h2>
+<h2>CSV files<a class="headerlink" href="#csv-files" title="Link to this heading">#</a></h2>
 <p>Files with the extension <code class="docutils literal notranslate"><span class="pre">.csv</span></code> are <em>comma-separated variables</em>, which can be used to store data in a format that’s compatible across different systems. Data in CSV files is separated by commas, with rows of data separated by line breaks, and CSVs can be imported and exported easily from spreadsheets.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">item</span> <span class="mi">1</span><span class="p">,</span> <span class="n">item</span> <span class="mi">2</span><span class="p">,</span> <span class="n">item</span> <span class="mi">3</span><span class="p">,</span> <span class="n">item</span> <span class="mi">4</span>
 <span class="n">more</span> <span class="n">items</span><span class="p">,</span> <span class="n">go</span> <span class="n">here</span><span class="p">,</span> <span class="n">look</span> <span class="n">at</span> <span class="n">them</span><span class="p">,</span> <span class="n">lovely</span> <span class="n">items</span>
@@ -402,31 +393,7 @@ document.write(`
 </pre></div>
 </div>
 <p><code class="docutils literal notranslate"><span class="pre">.csv</span></code> files are essentially text files, and can be opened in a text editor like Notepad (on Windows) or Textedit (on a Mac).</p>
-<div class="exercise admonition" id="excel-ex2">
-
-<p class="admonition-title"><span class="caption-number">Exercise 1.2 </span></p>
-<section id="exercise-content">
-<p>(a) Download the CSV file linked below.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data1.csv"><img alt="CSV icon" src="../_images/csv-icon.png" />tut0-data1.csv</a></p>
-<p>(b) Open the file using a text editor and look at the contents.</p>
-<p>(c) Create a new blank spreadsheet file, and import the CSV file into the spreadsheet. See how it looks in the spreadsheet.</p>
-<p>(d) Create another new blank spreadsheet, and make up some dummy data in the cells of the first tab.</p>
-<p>(e) Export the tab as a <code class="docutils literal notranslate"><span class="pre">.csv</span></code> file and look at that file in a text editor.</p>
 </section>
-</div>
-<div class="exercise admonition" id="excel-ex3">
-
-<p class="admonition-title"><span class="caption-number">Exercise 1.3 </span></p>
-<section id="exercise-content">
-<p>(a) Download the CSV file of Scrabble scores below, and import it into a new blank spreadsheet. Use the formulae you learned earlier to make a Scrabble Word Score Calculator. You can add rows and modify the spreadsheet as much as you want - there should be a set of cells you can type a word into and another one that tells you how much it’s worth in Scrabble.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv"><img alt="CSV icon" src="../_images/csv-icon.png" />tut0-data2.csv</a></p>
-<p>(b) Download the CSV file below, showing a list of items from a receipt from a restaurant meal, and who ordered which items. Use it to build a spreadsheet to calculate how much money each person owes, and the total bill.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data3.csv"><img alt="CSV icon" src="../_images/csv-icon.png" />tut0-data3.csv</a></p>
-</section>
-</div>
-</section>
-<div class="toctree-wrapper compound">
-</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -459,15 +426,6 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="intro.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Tutorial Projects</p>
-      </div>
-    </a>
 </div>
                 </footer>
               
@@ -484,9 +442,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics">1.1. Basics</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spreadsheet-practice">1.2. Spreadsheet Practice</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-files">1.3. CSV files</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics">Basics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spreadsheet-practice">Spreadsheet Practice</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-files">CSV files</a></li>
 </ul>
   </nav></div>
 

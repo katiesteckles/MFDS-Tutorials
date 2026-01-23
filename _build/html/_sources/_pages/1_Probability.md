@@ -1,7 +1,7 @@
 
-# Week 1 - Spreadsheets Recap
+# Week 2 - Probability
 
-In this week's tutorial, we will learn or revise how to use spreadsheets to manipulate and store data.
+In this week's tutorial, we will use techniques from probability to complete a mini-project.
 
 ## Basics
 
