@@ -14,3 +14,7 @@ parts:
     sections:
     - glob: _pages/0*
 
+  - file: _pages/1_Probability
+    sections:
+    - glob: _pages/1*
+

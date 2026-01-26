@@ -36,7 +36,7 @@ The `=COUNTIFS()` function allows you to combine multiple sets of ranges/criteri
 
 ```{figure} /_images/tut1-countifex.png
 :name: COUNTIF example
-:width: 700
+:width: 400
 
 To check if how many rows in this table have the entries in both columns positive, we would use `=COUNTIFS(A1:A10,">0", B2:B10,">0")`. This would return 3, since this is true of rows 2, 5 and 10.
 ```
