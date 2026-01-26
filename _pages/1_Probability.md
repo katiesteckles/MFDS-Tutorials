@@ -73,10 +73,11 @@ The data contains details of the weather in Manchester, for the hour from noon t
 
 [![CSV icon](../_images/csv-icon.png)tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv)
 
-(b) Let $s=3$, and $f=2$. Given that a tile occurrs in the set with frequency greater than or equal to $f$, what is the probability it has a score greater than or equal to $s$? Build a spreadsheet to find the probabilities by counting the number of tiles which satisfy both. Set it up using a cell for the values of $s$ and $f$, and a cell reference with dollar symbols.
+(b) Let $s=3$, and $f=2$. Let $A =$ 'a tile has a score greater than or equal to $s$' and $B= $ 'a tile occurrs in the set with frequency greater than or equal to $f$'. What is $P(A|B)$ for each of the tiles? Build a spreadsheet to find the  conditional probabilities by counting the number of tiles which satisfy both. Set it up using a cell containing the values of $s$ and $f$, and use references with dollar symbols to those cells.
 
 (c) Try changing the values of $s$ and $f$, and see how this affects the probability. Are the values what you expect? Why would the designers of Scrabble want this to be the case?
 
+(d) Calculate $P(B|A)$ for each tile. Are these the same? Would you expect them to be?
 
 ```
 
