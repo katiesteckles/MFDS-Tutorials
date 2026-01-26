@@ -7,7 +7,7 @@ In this week's tutorial, we will learn or revise how to use spreadsheets to mani
 
 Two common software packages used for spreadsheets are Microsoft Excel and Google Sheets.
 
-```{figure} /_images/excel-sheets-example.png
+```{figure} /_images/tut0-excel-sheets-example.png
 :name: Excel and Sheets examples
 :width: 700
 

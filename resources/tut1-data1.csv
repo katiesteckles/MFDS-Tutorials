@@ -1,0 +1,101 @@
+﻿Contains Transport for Greater Manchester data and OS data (Crown copyright and database right 2017),,,
+Code,Stop Name,Zones,Date
+HPK,Heaton Park Metrolink stop,3,1992/04/06
+BKV,Bowker Vale Metrolink stop,"2, 3",1992/04/06
+CRP,Crumpsall Metrolink stop,2,1992/04/06
+BRY,Bury Metrolink stop,4,1992/04/06
+RAD,Radcliffe Metrolink stop,4,1992/04/06
+WFD,Whitefield Metrolink stop,"3, 4",1992/04/06
+BOB,Besses o' th' Barn Metrolink stop,3,1992/04/06
+PRS,Prestwich Metrolink stop,3,1992/04/06
+VIC,Victoria Metrolink stop,1,1992/04/06
+MKT,Market Street Metrolink stop,1,1992/04/27
+PCG,Piccadilly Gardens Metrolink stop,1,1992/07/20
+PIC,Piccadilly Metrolink stop,1,1992/07/20
+DCF,Deansgate-Castlefield Metrolink stop,1,1992/04/27
+POM,Pomona Metrolink stop,2,1999/12/06
+TFB,Trafford Bar Metrolink stop,2,1992/06/15
+SHL,Shudehill Metrolink stop,1,2003/03/31
+FIR,Firswood Metrolink stop,2,2011/07/07
+CHO,Chorlton Metrolink stop,2,2011/07/07
+SWR,St Werburgh's Road Metrolink stop,"2, 3",2011/07/07
+SWP,Sale Water Park Metrolink stop,3,2014/11/03
+NMR,Northern Moor Metrolink stop,3,2014/11/03
+WPK,Wythenshawe Park Metrolink stop,3,2014/11/03
+MRD,Moor Road Metrolink stop,3,2014/11/03
+BAG,Baguley Metrolink stop,3,2014/11/03
+RTH,Roundthorn Metrolink stop,"3, 4",2014/11/03
+MAR,Martinscroft Metrolink stop,4,2014/11/03
+BCH,Benchill Metrolink stop,4,2014/11/03
+CRO,Crossacres Metrolink stop,4,2014/11/03
+RBN,Robinswood Road Metrolink stop,4,2014/11/03
+PLH,Peel Hall Metrolink stop,4,2014/11/03
+SHD,Shadowmoss Metrolink stop,4,2014/11/03
+AIR,Manchester Airport Metrolink stop,4,2014/11/03
+NIS,New Islington Metrolink stop,1,2013/02/11
+HOT,Holt Town Metrolink stop,2,2013/02/11
+SPC,Etihad Campus Metrolink stop,2,2013/02/11
+VEL,Velopark Metrolink stop,2,2013/02/11
+CLA,Clayton Hall Metrolink stop,2,2013/02/11
+EDL,Edge Lane Metrolink stop,"2, 3",2013/02/11
+CER,Cemetery Road Metrolink stop,3,2013/02/11
+DYL,Droylsden Metrolink stop,3,2013/02/11
+AUD,Audenshaw Metrolink stop,3,2013/10/09
+ASM,Ashton Moss Metrolink stop,3,2013/10/09
+ASW,Ashton West Metrolink stop,3,2013/10/09
+ASH,Ashton-under-Lyne Metrolink stop,3,2013/10/09
+QNS,Queens Road Metrolink stop,2,2013/12/16
+MON,Monsall Metrolink stop,2,2012/06/13
+CEP,Central Park Metrolink stop,2,2012/06/13
+NHM,Newton Heath and Moston Metrolink stop,"2, 3",2012/06/13
+FAL,Failsworth Metrolink stop,3,2012/06/13
+HOL,Hollinwood Metrolink stop,3,2012/06/13
+SOC,South Chadderton Metrolink stop,3,2012/06/13
+CNK,Cornbrook Metrolink stop,"1, 2",1999/12/06
+ABM,Abraham Moss Metrolink stop,2,2011/04/18
+DAN,Dane Road Metrolink stop,3,1992/06/15
+SAL,Sale Metrolink stop,3,1992/06/15
+BRK,Brooklands Metrolink stop,"3, 4",1992/06/15
+TMP,Timperley Metrolink stop,4,1992/06/15
+NAV,Navigation Road Metrolink stop,4,1992/06/15
+ALT,Altrincham Metrolink stop,4,1992/06/15
+ECC,Eccles Metrolink stop,2,2000/07/21
+LDW,Ladywell Metrolink stop,2,2000/07/21
+SFQ,Salford Quays Metrolink stop,2,1999/12/06
+EXQ,Exchange Quay Metrolink stop,2,1999/12/06
+HBC,Harbour City Metrolink stop,2,1999/12/06
+ANC,Anchorage Metrolink stop,2,1999/12/06
+BDW,Broadway Metrolink stop,2,1999/12/06
+LGW,Langworthy Metrolink stop,2,2000/07/21
+WST,Weaste Metrolink stop,2,2000/07/21
+OLD,Old Trafford Metrolink stop,2,1992/06/15
+STR,Stretford Metrolink stop,"2, 3",1992/06/15
+MEC,MediaCityUK Metrolink stop,2,2010/09/20
+FRE,Freehold Metrolink stop,3,2012/06/13
+OHK,Oldham King Street Metrolink stop,3,2014/01/27
+OHC,Oldham Central Metrolink stop,3,2014/01/27
+OHM,Oldham Mumps Metrolink stop,3,2014/01/27
+DER,Derker Metrolink stop,"3, 4",2012/12/16
+SHC,Shaw and Crompton Metrolink stop,4,2012/12/16
+NEH,Newhey Metrolink stop,4,2013/02/28
+MIL,Milnrow Metrolink stop,4,2013/02/28
+KIN,Kingsway Business Park Metrolink stop,4,2013/02/28
+NEB,Newbold Metrolink stop,4,2013/02/28
+ROC,Rochdale Railway Station Metrolink stop,4,2013/02/28
+RTC,Rochdale Town Centre Metrolink stop,4,2014/03/31
+BMR,Barlow Moor Road Metrolink stop,"2, 3",2014/11/03
+WTH,Withington Metrolink stop,3,2013/05/23
+BRT,Burton Road Metrolink stop,3,2013/05/23
+WDD,West Didsbury Metrolink stop,3,2013/05/23
+DDV,Didsbury Village Metrolink stop,3,2013/05/23
+EDD,East Didsbury Metrolink stop,3,2013/05/23
+WYC,Wythenshawe Town Centre Metrolink stop,4,2014/11/03
+WWD,Westwood Metrolink stop,3,2014/01/27
+EXS,Exchange Square Metrolink stop,1,2015/12/06
+TRC,The Trafford Centre Metrolink stop,3,2020/03/22
+WSD,Wharfside Metrolink stop,2,2020/03/22
+IWM,Imperial War Museum Metrolink stop,2,2020/03/22
+VLG,Village Metrolink stop,2,2020/03/22
+PAR,Parkway Metrolink stop,"2, 3",2020/03/22
+EVC,Barton Dock Road Metrolink stop,3,2020/03/22
+SPS,St Peter's Square Metrolink stop,1,2016/08/28
