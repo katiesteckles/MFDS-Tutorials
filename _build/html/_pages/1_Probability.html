@@ -389,8 +389,18 @@ document.write(`
 <p>(e) If the events were independent, what would you expect these values to be? Do any of the pairs of events seem to display independence?</p>
 </section>
 </div>
-<p>For a lottery with <span class="math notranslate nohighlight">\(n\)</span> numbers to choose from, of which you need to match <span class="math notranslate nohighlight">\(k\)</span> to win the jackpot, the number of possible combinations that could be drawn is “<span class="math notranslate nohighlight">\(n\)</span> choose <span class="math notranslate nohighlight">\(k\)</span>”, which can be calculated using the <code class="docutils literal notranslate"><span class="pre">=COMBIN()</span></code> function (which takes as inputs <span class="math notranslate nohighlight">\(n\)</span> and <span class="math notranslate nohighlight">\(k\)</span>). The probability of winning the jackpot is 1 divided by the number of combinations (as exactly one of them will be the winning set of numbers).</p>
 <div class="exercise admonition" id="prob-ex4">
+
+<p class="admonition-title"></p>
+<section id="exercise-content">
+<p>(a) Download the CSV file from last week (with scrabble tiles and scores), and import it into a spreadsheet.</p>
+<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv"><img alt="CSV icon" src="../_images/csv-icon.png" />tut0-data2.csv</a></p>
+<p>(b) Let <span class="math notranslate nohighlight">\(s=3\)</span>, and <span class="math notranslate nohighlight">\(f=2\)</span>. Given that a tile occurrs in the set with frequency greater than or equal to <span class="math notranslate nohighlight">\(f\)</span>, what is the probability it has a score greater than or equal to <span class="math notranslate nohighlight">\(f\)</span>? Build a spreadsheet to find the probabilities by counting the number of tiles which satisfy both. Set it up using a cell for the values of <span class="math notranslate nohighlight">\(s\)</span> and <span class="math notranslate nohighlight">\(f\)</span>, and a cell reference with dollar symbols.</p>
+<p>(c) Try changing the values of <span class="math notranslate nohighlight">\(s\)</span> and <span class="math notranslate nohighlight">\(f\)</span>, and see how this affects the probability. Are the values what you expect? Why would the designers of Scrabble want this to be the case?</p>
+</section>
+</div>
+<p>For a lottery with <span class="math notranslate nohighlight">\(n\)</span> numbers to choose from, of which you need to match <span class="math notranslate nohighlight">\(k\)</span> to win the jackpot, the number of possible combinations that could be drawn is “<span class="math notranslate nohighlight">\(n\)</span> choose <span class="math notranslate nohighlight">\(k\)</span>”, which can be calculated using the <code class="docutils literal notranslate"><span class="pre">=COMBIN()</span></code> function (which takes as inputs <span class="math notranslate nohighlight">\(n\)</span> and <span class="math notranslate nohighlight">\(k\)</span>). The probability of winning the jackpot is 1 divided by the number of combinations (as exactly one of them will be the winning set of numbers).</p>
+<div class="exercise admonition" id="prob-ex5">
 
 <p class="admonition-title"></p>
 <section id="exercise-content">
