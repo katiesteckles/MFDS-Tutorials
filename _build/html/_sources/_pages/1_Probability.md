@@ -69,11 +69,11 @@ The data contains details of the weather in Manchester, for the hour from noon t
 ```{exercise}
 :label: prob-ex4
 
-(a) Download the CSV file from last week (with scrabble tiles and scores), and import it into a spreadsheet.
+(a) Download the CSV file from last week (with the list of Scrabble tiles and their frequencies/scores), and import it into a spreadsheet.
 
 [![CSV icon](../_images/csv-icon.png)tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv)
 
-(b) Let $s=3$, and $f=2$. Given that a tile occurrs in the set with frequency greater than or equal to $f$, what is the probability it has a score greater than or equal to $f$? Build a spreadsheet to find the probabilities by counting the number of tiles which satisfy both. Set it up using a cell for the values of $s$ and $f$, and a cell reference with dollar symbols.
+(b) Let $s=3$, and $f=2$. Given that a tile occurrs in the set with frequency greater than or equal to $f$, what is the probability it has a score greater than or equal to $s$? Build a spreadsheet to find the probabilities by counting the number of tiles which satisfy both. Set it up using a cell for the values of $s$ and $f$, and a cell reference with dollar symbols.
 
 (c) Try changing the values of $s$ and $f$, and see how this affects the probability. Are the values what you expect? Why would the designers of Scrabble want this to be the case?
 
