@@ -65,11 +65,26 @@ The data contains details of the weather in Manchester, for the hour from noon t
 (e) If the events were independent, what would you expect these values to be? Do any of the pairs of events seem to display independence?
 
 ```
+
+```{exercise}
+:label: prob-ex4
+
+(a) Download the CSV file from last week (with scrabble tiles and scores), and import it into a spreadsheet.
+
+[![CSV icon](../_images/csv-icon.png)tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv)
+
+(b) Let $s=3$, and $f=2$. Given that a tile occurrs in the set with frequency greater than or equal to $f$, what is the probability it has a score greater than or equal to $f$? Build a spreadsheet to find the probabilities by counting the number of tiles which satisfy both. Set it up using a cell for the values of $s$ and $f$, and a cell reference with dollar symbols.
+
+(c) Try changing the values of $s$ and $f$, and see how this affects the probability. Are the values what you expect? Why would the designers of Scrabble want this to be the case?
+
+
+```
+
 For a lottery with $n$ numbers to choose from, of which you need to match $k$ to win the jackpot, the number of possible combinations that could be drawn is "$n$ choose $k$", which can be calculated using the `=COMBIN()` function (which takes as inputs $n$ and $k$). The probability of winning the jackpot is 1 divided by the number of combinations (as exactly one of them will be the winning set of numbers).
 
 
 ```{exercise}
-:label: prob-ex4
+:label: prob-ex5
 
 (a) Search online to find out information about lotteries in different countries. For each one, determine how many numbers are used, how many balls are drawn, how frequently draws operate, and how many numbers you need to match to win the jackpot.
 
