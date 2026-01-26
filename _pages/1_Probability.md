@@ -1,5 +1,5 @@
 
-# Week 2 - Probability
+# Probability
 
 In this week's tutorial, we will use techniques from probability to complete a mini-project.
 
@@ -32,13 +32,13 @@ i) If I pick a tram stop on the Metrolink at random, what is the probability tha
 ii) If I pick a tram stop on the Metrolink at random, what is the probability that it was opened before the start of the year 2000?
 
 ```
-The `=COUNTIFS()` function allows you to combine multiple sets of ranges/criteria, and it will go through all the ranges at the same time, counting a row if the equivalent entries in the ranges all match.
+The `=COUNTIFS()` function allows you to combine multiple sets of ranges/criteria, and it will go through all the ranges at the same time, counting a row if the equivalent entries in the ranges all match. The sizes of the ranges all need to be the same.
 
 ```{figure} /_images/tut1-countifex.png
 :name: COUNTIF example
-:width: 400
+:width: 300
 
-To check if how many rows in this table have the entries in both columns positive, we would use `=COUNTIFS(A1:A10,">0", B2:B10,">0")`. This would return 3, since this is true of rows 2, 5 and 10.
+To check if how many rows in this table have the entries in both columns positive, we would use `=COUNTIFS(A1:A10,">0", B1:B10,">0")`. This would return 3, since this is true of rows 2, 5 and 10.
 ```
 
 ```{exercise}
@@ -65,6 +65,7 @@ The data contains details of the weather in Manchester, for the hour from noon t
 (e) If the events were independent, what would you expect these values to be? Do any of the pairs of events seem to display independence?
 
 ```
+For a lottery with $n$ numbers to choose from, of which you need to match $k$ to win the jackpot, the number of possible combinations that could be drawn is "$n$ choose $k$", which can be calculated using the `=COMBIN()` function (which takes as inputs $n$ and $k$). The probability of winning the jackpot is 1 divided by the number of combinations (as exactly one of them will be the winning set of numbers).
 
 
 ```{exercise}
@@ -72,12 +73,9 @@ The data contains details of the weather in Manchester, for the hour from noon t
 
 (a) Search online to find out information about lotteries in different countries. For each one, determine how many numbers are used, how many balls are drawn, how frequently draws operate, and how many numbers you need to match to win the jackpot.
 
-For a lottery with $n$ numbers to choose from, of which you need to match $k$ to win the jackpot, the number of possible combinations that could be drawn is "$n$ choose $k$", which can be calculated using the `=COMBIN()` function (which takes as inputs $n$ and $k$). The probability of winning the jackpot is 1 divided by the number of combinations (as exactly one of them will be the winning set of numbers).
-
 (b) For each country's lottery, calculate the probability of winning the jackpot having bought a single ticket, and how likely a person buying a ticket in every draw for a week is to win on a given week (by multiplying the probability of winning on a given draw by the number of draws in a week).
 
 (c) Compile your data into a spreadsheet and format it. Which country has the best odds of winning the lottery?
 
 ```
-
 

@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Week 2 - Probability &#8212; Maths for Data Science - Tutorial Content</title>
+    <title>Probability &#8212; Maths for Data Science - Tutorial Content</title>
   
   
   
@@ -60,6 +60,8 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"tex": {"macros": {"adj": ["\\operatorname{adj}", 0]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '_pages/1_Probability';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -185,7 +187,7 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">1. Week 1 - Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+<li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">1. Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
 </ul>
 </details></li>
 </ul>
@@ -313,9 +315,7 @@ document.write(`
   </button>
 `);
 </script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -326,21 +326,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Week 2 - Probability</h1>
+    <h1>Probability</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics">Basics</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spreadsheet-practice">Spreadsheet Practice</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-files">CSV files</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -350,50 +340,65 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="week-2-probability">
-<h1>Week 2 - Probability<a class="headerlink" href="#week-2-probability" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="probability">
+<h1>Probability<a class="headerlink" href="#probability" title="Link to this heading">#</a></h1>
 <p>In this week’s tutorial, we will use techniques from probability to complete a mini-project.</p>
-<section id="basics">
-<h2>Basics<a class="headerlink" href="#basics" title="Link to this heading">#</a></h2>
-<p>Two common software packages used for spreadsheets are Microsoft Excel and Google Sheets.</p>
-<figure class="align-default" id="excel-and-sheets-examples">
-<a class="reference internal image-reference" href="../_images/excel-sheets-example.png"><img alt="../_images/excel-sheets-example.png" src="../_images/excel-sheets-example.png" style="width: 700px;" />
+<p>The <code class="docutils literal notranslate"><span class="pre">=COUNTIF()</span></code> function takes two inputs: the range you are counting over, and a statement to compare to, such as <code class="docutils literal notranslate"><span class="pre">&quot;4&quot;</span></code> to check whether each entry in the range is equal to 4, or <code class="docutils literal notranslate"><span class="pre">&quot;&gt;2&quot;</span></code> to check if the entry is greater than 2. The function will count how many entries in the range match the criterion.</p>
+<p>For example, <code class="docutils literal notranslate"><span class="pre">=COUNTIF(A1:A4,</span> <span class="pre">&quot;&gt;3&quot;)</span></code> will tell me how many of the entries in the range <code class="docutils literal notranslate"><span class="pre">A1:A4</span></code> are greater than 3. You can also use <code class="docutils literal notranslate"><span class="pre">&quot;&gt;=3&quot;</span></code> for ‘greater than or equal to three’.</p>
+<div class="exercise admonition" id="prob-ex1">
+
+<p class="admonition-title"></p>
+<section id="exercise-content">
+<p>(a) Create a blank spreadsheet, and type in a list of random values, including numbers and text. Some of them should be the same as each other.</p>
+<p>(b) Use the <code class="docutils literal notranslate"><span class="pre">=COUNTIF()</span></code> function to count the number of entries in your list which match a particular value, or lie in a numerical range. Verify the outputs are correct by counting.</p>
+</section>
+</div>
+<div class="exercise admonition" id="prob-ex2">
+
+<p class="admonition-title"></p>
+<section id="exercise-content">
+<p>(a) Download the CSV file linked below, and import it into a spreadsheet.</p>
+<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data1.csv"><img alt="CSV icon" src="../_images/csv-icon.png" />tut0-data1.csv</a></p>
+<p>The data contains a list of stops on the Manchester Metrolink, with their station codes, fare zone and date of opening.</p>
+<p>(b) Use a <code class="docutils literal notranslate"><span class="pre">=COUNTIF()</span></code> function or a filter to answer the following questions.</p>
+<p>i) If I pick a tram stop on the Metrolink at random, what is the probability that it is in Zone 1?</p>
+<p>ii) If I pick a tram stop on the Metrolink at random, what is the probability that it was opened before the start of the year 2000?</p>
+</section>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">=COUNTIFS()</span></code> function allows you to combine multiple sets of ranges/criteria, and it will go through all the ranges at the same time, counting a row if the equivalent entries in the ranges all match. The sizes of the ranges all need to be the same.</p>
+<figure class="align-default" id="countif-example">
+<a class="reference internal image-reference" href="../_images/tut1-countifex.png"><img alt="../_images/tut1-countifex.png" src="../_images/tut1-countifex.png" style="width: 300px;" />
 </a>
 <figcaption>
-<p><span class="caption-text">Basic view of Microsoft Excel (left) and Google Sheets (right)</span><a class="headerlink" href="#excel-and-sheets-examples" title="Link to this image">#</a></p>
+<p><span class="caption-text">To check if how many rows in this table have the entries in both columns positive, we would use <code class="docutils literal notranslate"><span class="pre">=COUNTIFS(A1:A10,&quot;&gt;0&quot;,</span> <span class="pre">B1:B10,&quot;&gt;0&quot;)</span></code>. This would return 3, since this is true of rows 2, 5 and 10.</span><a class="headerlink" href="#countif-example" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Spreadsheets are laid out in <em>cells</em>, and each cell has a unique cell reference - a letter for the column, and a number for the row. In the example, cell C3 is active (selected), and this is indicated in the top left.</p>
-<p>Next to that is a <em>formula bar</em>, showing the formula which has been typed into the active cell. It is <code class="docutils literal notranslate"><span class="pre">=B3+1</span></code>, indicating this cell should show a number one more than the value found in B3.</p>
-<p>A group of cells is called a <em>range</em> - the cells A2, A3, A4 and A5 have been coloured blue in the example, and we could denote these as <code class="docutils literal notranslate"><span class="pre">A2:A5</span></code>, using a colon to indicate a range.</p>
-</section>
-<section id="spreadsheet-practice">
-<h2>Spreadsheet Practice<a class="headerlink" href="#spreadsheet-practice" title="Link to this heading">#</a></h2>
-</section>
-<section id="csv-files">
-<h2>CSV files<a class="headerlink" href="#csv-files" title="Link to this heading">#</a></h2>
-<p>Files with the extension <code class="docutils literal notranslate"><span class="pre">.csv</span></code> are <em>comma-separated variables</em>, which can be used to store data in a format that’s compatible across different systems. Data in CSV files is separated by commas, with rows of data separated by line breaks, and CSVs can be imported and exported easily from spreadsheets.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">item</span> <span class="mi">1</span><span class="p">,</span> <span class="n">item</span> <span class="mi">2</span><span class="p">,</span> <span class="n">item</span> <span class="mi">3</span><span class="p">,</span> <span class="n">item</span> <span class="mi">4</span>
-<span class="n">more</span> <span class="n">items</span><span class="p">,</span> <span class="n">go</span> <span class="n">here</span><span class="p">,</span> <span class="n">look</span> <span class="n">at</span> <span class="n">them</span><span class="p">,</span> <span class="n">lovely</span> <span class="n">items</span>
+<div class="exercise admonition" id="prob-ex3">
 
-</pre></div>
-</div>
-<p>CSVs often have a header row, listing the different categories, then below that, the data itself.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Name</span><span class="p">,</span> <span class="n">Occupation</span><span class="p">,</span> <span class="n">Favourite</span> <span class="n">colour</span>
-<span class="n">Spider</span><span class="o">-</span><span class="n">Man</span><span class="p">,</span> <span class="n">crime</span> <span class="n">fighter</span><span class="p">,</span> <span class="n">red</span>
-<span class="n">Tinky</span> <span class="n">Winky</span><span class="p">,</span> <span class="n">handbag</span> <span class="n">designer</span><span class="p">,</span> <span class="n">purple</span>
-<span class="n">Billie</span><span class="p">,</span> <span class="n">musician</span><span class="p">,</span> <span class="n">acid</span> <span class="n">green</span>
-</pre></div>
-</div>
-<p>If the data in your CSV needs to include commas, you can use quote marks to enclose entries so the software doesn’t interpret the comma as an extra column.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Movie</span> <span class="n">title</span><span class="p">,</span> <span class="n">Release</span> <span class="n">year</span><span class="p">,</span> <span class="n">Lead</span> <span class="n">actors</span>
-<span class="s2">&quot;Monsters, Inc&quot;</span><span class="p">,</span> <span class="mi">2001</span><span class="p">,</span> <span class="s2">&quot;Billy Crystal, John Goodman&quot;</span>
-<span class="s2">&quot;Three Billboards Ouside Ebbing, Missouri&quot;</span><span class="p">,</span> <span class="mi">2017</span><span class="p">,</span> <span class="s2">&quot;Frances McDormand, Woody Harrelson&quot;</span>
-<span class="s2">&quot;The Good, The Bad and The Ugly&quot;</span><span class="p">,</span> <span class="mi">1966</span><span class="p">,</span> <span class="s2">&quot;Clint Eastwood, Eli Wallach&quot;</span>
-</pre></div>
-</div>
-<p><code class="docutils literal notranslate"><span class="pre">.csv</span></code> files are essentially text files, and can be opened in a text editor like Notepad (on Windows) or Textedit (on a Mac).</p>
+<p class="admonition-title"></p>
+<section id="exercise-content">
+<p>(a) Download the CSV file linked below, and import it into a spreadsheet.</p>
+<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv"><img alt="CSV icon" src="../_images/csv-icon.png" />tut0-data2.csv</a></p>
+<p>The data contains details of the weather in Manchester, for the hour from noon to 1pm on each day in 2024 (which had 366 days).</p>
+<p>(b) Use a <code class="docutils literal notranslate"><span class="pre">=COUNTIF()</span></code> function or a filter to obtain the values listed below:</p>
+<p>(i) The number of days in 2024 on which the temperature at noon was more than 18 degrees.</p>
+<p>(ii) The number of days in 2024 on which there was any non-zero amount of rainfall at noon.</p>
+<p>(iii) The number of days in 2024 on which the wind speed at noon was more than 10kmph.</p>
+<p>(c) For each pair out of these three measurements, use a <code class="docutils literal notranslate"><span class="pre">=COUNTIFS()</span></code> function to find the number of days that both were true.</p>
+<p>(d) For each of the three pairs, calculate the joint probability of both happening (given your original values from part (b), which give the number of times out of 366 that each individual event happened) by multiplying them together.</p>
+<p>(e) If the events were independent, what would you expect these values to be? Do any of the pairs of events seem to display independence?</p>
 </section>
+</div>
+<p>For a lottery with <span class="math notranslate nohighlight">\(n\)</span> numbers to choose from, of which you need to match <span class="math notranslate nohighlight">\(k\)</span> to win the jackpot, the number of possible combinations that could be drawn is “<span class="math notranslate nohighlight">\(n\)</span> choose <span class="math notranslate nohighlight">\(k\)</span>”, which can be calculated using the <code class="docutils literal notranslate"><span class="pre">=COMBIN()</span></code> function (which takes as inputs <span class="math notranslate nohighlight">\(n\)</span> and <span class="math notranslate nohighlight">\(k\)</span>). The probability of winning the jackpot is 1 divided by the number of combinations (as exactly one of them will be the winning set of numbers).</p>
+<div class="exercise admonition" id="prob-ex4">
+
+<p class="admonition-title"></p>
+<section id="exercise-content">
+<p>(a) Search online to find out information about lotteries in different countries. For each one, determine how many numbers are used, how many balls are drawn, how frequently draws operate, and how many numbers you need to match to win the jackpot.</p>
+<p>(b) For each country’s lottery, calculate the probability of winning the jackpot having bought a single ticket, and how likely a person buying a ticket in every draw for a week is to win on a given week (by multiplying the probability of winning on a given draw by the number of draws in a week).</p>
+<p>(c) Compile your data into a spreadsheet and format it. Which country has the best odds of winning the lottery?</p>
+</section>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -432,23 +437,6 @@ document.write(`
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics">Basics</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spreadsheet-practice">Spreadsheet Practice</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#csv-files">CSV files</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>

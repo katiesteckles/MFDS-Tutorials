@@ -1,97 +1,81 @@
 
-# Week 2 - Probability
+# Probability
 
 In this week's tutorial, we will use techniques from probability to complete a mini-project.
 
-## Basics
+The `=COUNTIF()` function takes two inputs: the range you are counting over, and a statement to compare to, such as `"4"` to check whether each entry in the range is equal to 4, or `">2"` to check if the entry is greater than 2. The function will count how many entries in the range match the criterion.
 
-Two common software packages used for spreadsheets are Microsoft Excel and Google Sheets.
-
-```{figure} /_images/excel-sheets-example.png
-:name: Excel and Sheets examples
-:width: 700
-
-Basic view of Microsoft Excel (left) and Google Sheets (right)
-```
-
-Spreadsheets are laid out in *cells*, and each cell has a unique cell reference - a letter for the column, and a number for the row. In the example, cell C3 is active (selected), and this is indicated in the top left.
-
-Next to that is a *formula bar*, showing the formula which has been typed into the active cell. It is `=B3+1`, indicating this cell should show a number one more than the value found in B3.
-
-A group of cells is called a *range* - the cells A2, A3, A4 and A5 have been coloured blue in the example, and we could denote these as `A2:A5`, using a colon to indicate a range.
-
-## Spreadsheet Practice
+For example, `=COUNTIF(A1:A4, ">3")` will tell me how many of the entries in the range `A1:A4` are greater than 3. You can also use `">=3"` for 'greater than or equal to three'.
 
 ```{exercise}
-:label: excel-ex1
+:label: prob-ex1
 
-(a) Download the Excel spreadsheet file linked below, or use a browser to open the Google Sheets version.
+(a) Create a blank spreadsheet, and type in a list of random values, including numbers and text. Some of them should be the same as each other.
 
-[![Excel icon](../_images/excel-icon.png)Tutorial 0 - Spreadsheet Practice.xlsx](https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%200%20-%20Spreadsheet%20Practice.xlsx)
-
-[![Google Sheets icon](../_images/sheets-icon.png)Tutorial 0 - Spreadsheet Practice (Google Sheets)](https://docs.google.com/spreadsheets/d/1fO0nU7sfcS_Nw8GIW34C-ip5L_eK6PcVBp16i_VTH5g/copy)
-
-(b) Work through the tabs of the spreadsheet, completing the indicated tasks on each tab.
-
-```
-
-## CSV files
-
-Files with the extension `.csv` are *comma-separated variables*, which can be used to store data in a format that's compatible across different systems. Data in CSV files is separated by commas, with rows of data separated by line breaks, and CSVs can be imported and exported easily from spreadsheets.
-
-```
-item 1, item 2, item 3, item 4
-more items, go here, look at them, lovely items
-
-```
-
-CSVs often have a header row, listing the different categories, then below that, the data itself.
-
-```
-Name, Occupation, Favourite colour
-Spider-Man, crime fighter, red
-Tinky Winky, handbag designer, purple
-Billie, musician, acid green
-```
-
-If the data in your CSV needs to include commas, you can use quote marks to enclose entries so the software doesn't interpret the comma as an extra column.
-
-```
-Movie title, Release year, Lead actors
-"Monsters, Inc", 2001, "Billy Crystal, John Goodman"
-"Three Billboards Ouside Ebbing, Missouri", 2017, "Frances McDormand, Woody Harrelson"
-"The Good, The Bad and The Ugly", 1966, "Clint Eastwood, Eli Wallach"
-```
-
-`.csv` files are essentially text files, and can be opened in a text editor like Notepad (on Windows) or Textedit (on a Mac).
-
-```{exercise}
-:label: excel-ex2
-
-(a) Download the CSV file linked below.
-
-[![CSV icon](../_images/csv-icon.png)tut0-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data1.csv)
-
-(b) Open the file using a text editor and look at the contents.
-
-(c) Create a new blank spreadsheet file, and import the CSV file into the spreadsheet. See how it looks in the spreadsheet.
-
-(d) Create another new blank spreadsheet, and make up some dummy data in the cells of the first tab.
-
-(e) Export the tab as a `.csv` file and look at that file in a text editor.
+(b) Use the `=COUNTIF()` function to count the number of entries in your list which match a particular value, or lie in a numerical range. Verify the outputs are correct by counting.
 
 ```
 
 ```{exercise}
-:label: excel-ex3
+:label: prob-ex2
 
-(a) Download the CSV file of Scrabble scores below, and import it into a new blank spreadsheet. Use the formulae you learned earlier to make a Scrabble Word Score Calculator. You can add rows and modify the spreadsheet as much as you want - there should be a set of cells you can type a word into and another one that tells you how much it's worth in Scrabble.
+(a) Download the CSV file linked below, and import it into a spreadsheet.
 
-[![CSV icon](../_images/csv-icon.png)tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv)
+[![CSV icon](../_images/csv-icon.png)tut0-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data1.csv)
 
-(b) Download the CSV file below, showing a list of items from a receipt from a restaurant meal, and who ordered which items. Use it to build a spreadsheet to calculate how much money each person owes, and the total bill.
+The data contains a list of stops on the Manchester Metrolink, with their station codes, fare zone and date of opening.
 
-[![CSV icon](../_images/csv-icon.png)tut0-data3.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data3.csv)
+(b) Use a `=COUNTIF()` function or a filter to answer the following questions.
+
+i) If I pick a tram stop on the Metrolink at random, what is the probability that it is in Zone 1?
+
+ii) If I pick a tram stop on the Metrolink at random, what is the probability that it was opened before the start of the year 2000?
+
+```
+The `=COUNTIFS()` function allows you to combine multiple sets of ranges/criteria, and it will go through all the ranges at the same time, counting a row if the equivalent entries in the ranges all match. The sizes of the ranges all need to be the same.
+
+```{figure} /_images/tut1-countifex.png
+:name: COUNTIF example
+:width: 300
+
+To check if how many rows in this table have the entries in both columns positive, we would use `=COUNTIFS(A1:A10,">0", B1:B10,">0")`. This would return 3, since this is true of rows 2, 5 and 10.
+```
+
+```{exercise}
+:label: prob-ex3
+
+(a) Download the CSV file linked below, and import it into a spreadsheet.
+
+[![CSV icon](../_images/csv-icon.png)tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv)
+
+The data contains details of the weather in Manchester, for the hour from noon to 1pm on each day in 2024 (which had 366 days).
+
+(b) Use a `=COUNTIF()` function or a filter to obtain the values listed below:
+
+(i) The number of days in 2024 on which the temperature at noon was more than 18 degrees.
+
+(ii) The number of days in 2024 on which there was any non-zero amount of rainfall at noon.
+
+(iii) The number of days in 2024 on which the wind speed at noon was more than 10kmph.
+
+(c) For each pair out of these three measurements, use a `=COUNTIFS()` function to find the number of days that both were true.
+
+(d) For each of the three pairs, calculate the joint probability of both happening (given your original values from part (b), which give the number of times out of 366 that each individual event happened) by multiplying them together.
+
+(e) If the events were independent, what would you expect these values to be? Do any of the pairs of events seem to display independence?
+
+```
+For a lottery with $n$ numbers to choose from, of which you need to match $k$ to win the jackpot, the number of possible combinations that could be drawn is "$n$ choose $k$", which can be calculated using the `=COMBIN()` function (which takes as inputs $n$ and $k$). The probability of winning the jackpot is 1 divided by the number of combinations (as exactly one of them will be the winning set of numbers).
+
+
+```{exercise}
+:label: prob-ex4
+
+(a) Search online to find out information about lotteries in different countries. For each one, determine how many numbers are used, how many balls are drawn, how frequently draws operate, and how many numbers you need to match to win the jackpot.
+
+(b) For each country's lottery, calculate the probability of winning the jackpot having bought a single ticket, and how likely a person buying a ticket in every draw for a week is to win on a given week (by multiplying the probability of winning on a given draw by the number of draws in a week).
+
+(c) Compile your data into a spreadsheet and format it. Which country has the best odds of winning the lottery?
 
 ```
 
