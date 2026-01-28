@@ -27,13 +27,13 @@ The data contains a list of stops on the Manchester Metrolink, with their statio
 
 (b) Use a `=COUNTIF()` function or a filter to answer the following questions.
 
-(i) If I pick a tram stop on the Metrolink at random, what is the probability that it is in Zone 1?
+&emsp;(i) If I pick a tram stop on the Metrolink at random, what is the probability that it is in Zone 1?
 
-(ii) If I pick a tram stop on the Metrolink at random, what is the probability that it was opened before the start of the year 2000?
+&emsp;(ii) If I pick a tram stop on the Metrolink at random, what is the probability that it was opened before the start of the year 2000?
 
-(iii) Create a table with headings 'Zone' and 'Count', with a row for each fare zone 1-4, and use `=COUNTIF()` to fill in the second column showing how many stops lie in each fare zone.
+(c) Create a table with headings 'Zone' and 'Count', with a row for each fare zone 1-4, and use `=COUNTIF()` to fill in the second column showing how many stops lie in each fare zone.
 
-(iv) Use the `=PROB()` function and this table to find the probability that a randomly chosen Metrolink stop is in zone 3 or 4.
+(d) Use the `=PROB()` function and this table to find the probability that a randomly chosen Metrolink stop is in zone 3 or 4.
 
 ```
 The `=COUNTIFS()` function allows you to combine multiple sets of ranges/criteria, and it will go through all the ranges at the same time, counting a row if the equivalent entries in the ranges all match. The sizes of the ranges all need to be the same.
@@ -56,11 +56,11 @@ The data contains details of the weather in Manchester, for the hour from noon t
 
 (b) Use a `=COUNTIF()` function or a filter to obtain the values listed below:
 
-(i) The number of days in 2024 on which the temperature at noon was more than 18 degrees.
+&emsp;(i) The number of days in 2024 on which the temperature at noon was more than 18 degrees.
 
-(ii) The number of days in 2024 on which there was any non-zero amount of rainfall at noon.
+&emsp;(ii) The number of days in 2024 on which there was any non-zero amount of rainfall at noon.
 
-(iii) The number of days in 2024 on which the wind speed at noon was more than 10kmph.
+&emsp;(iii) The number of days in 2024 on which the wind speed at noon was more than 10kmph.
 
 (c) For each pair out of these three measurements, use a `=COUNTIFS()` function to find the number of days that both were true.
 
