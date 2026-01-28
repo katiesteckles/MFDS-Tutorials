@@ -27,9 +27,13 @@ The data contains a list of stops on the Manchester Metrolink, with their statio
 
 (b) Use a `=COUNTIF()` function or a filter to answer the following questions.
 
-i) If I pick a tram stop on the Metrolink at random, what is the probability that it is in Zone 1?
+(i) If I pick a tram stop on the Metrolink at random, what is the probability that it is in Zone 1?
 
-ii) If I pick a tram stop on the Metrolink at random, what is the probability that it was opened before the start of the year 2000?
+(ii) If I pick a tram stop on the Metrolink at random, what is the probability that it was opened before the start of the year 2000?
+
+(iii) Create a table with headings 'Zone' and 'Count', with a row for each fare zone 1-4, and use `=COUNTIF()` to fill in the second column showing how many stops lie in each fare zone.
+
+(iv) Use the `=PROB()` function and this table to find the probability that a randomly chosen Metrolink stop is in zone 3 or 4.
 
 ```
 The `=COUNTIFS()` function allows you to combine multiple sets of ranges/criteria, and it will go through all the ranges at the same time, counting a row if the equivalent entries in the ranges all match. The sizes of the ranges all need to be the same.
