@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>2. Probability &#8212; Maths for Data Science - Tutorial Content</title>
+    <title>Probability &#8212; Maths for Data Science - Tutorial Content</title>
   
   
   
@@ -66,7 +66,7 @@
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="1. Spreadsheets Recap" href="0_Excel.html" />
+    <link rel="prev" title="Spreadsheets Recap - Solutions" href="0.1_Excel_Solutions.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -186,10 +186,11 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">1. Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+<li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="0.1_Excel_Solutions.html">Spreadsheets Recap - Solutions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">2. Probability</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Probability</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
 </ul>
 </details></li>
 </ul>
@@ -343,13 +344,13 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="probability">
-<h1><span class="section-number">2. </span>Probability<a class="headerlink" href="#probability" title="Link to this heading">#</a></h1>
+<h1>Probability<a class="headerlink" href="#probability" title="Link to this heading">#</a></h1>
 <p>In this week’s tutorial, we will use techniques from probability to complete a mini-project.</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">=COUNTIF()</span></code> function takes two inputs: the range you are counting over, and a statement to compare to, such as <code class="docutils literal notranslate"><span class="pre">&quot;4&quot;</span></code> to check whether each entry in the range is equal to 4, or <code class="docutils literal notranslate"><span class="pre">&quot;&gt;2&quot;</span></code> to check if the entry is greater than 2. The function will count how many entries in the range match the criterion.</p>
 <p>For example, <code class="docutils literal notranslate"><span class="pre">=COUNTIF(A1:A4,</span> <span class="pre">&quot;&gt;3&quot;)</span></code> will tell me how many of the entries in the range <code class="docutils literal notranslate"><span class="pre">A1:A4</span></code> are greater than 3. You can also use <code class="docutils literal notranslate"><span class="pre">&quot;&gt;=3&quot;</span></code> for ‘greater than or equal to three’.</p>
 <div class="exercise admonition" id="prob-ex1">
 
-<p class="admonition-title"><span class="caption-number">Exercise 2.1 </span></p>
+<p class="admonition-title"><span class="caption-number">Exercise 4 </span></p>
 <section id="exercise-content">
 <p>(a) Create a blank spreadsheet, and type in a list of random values, including numbers and text. Some of them should be the same as each other.</p>
 <p>(b) Use the <code class="docutils literal notranslate"><span class="pre">=COUNTIF()</span></code> function to count the number of entries in your list which match a particular value, or lie in a numerical range. Verify the outputs are correct by counting.</p>
@@ -357,7 +358,7 @@ document.write(`
 </div>
 <div class="exercise admonition" id="prob-ex2">
 
-<p class="admonition-title"><span class="caption-number">Exercise 2.2 </span></p>
+<p class="admonition-title"><span class="caption-number">Exercise 5 </span></p>
 <section id="exercise-content">
 <p>(a) Download the CSV file linked below, and import it into a spreadsheet.</p>
 <p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data1.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data1.csv">tut1-data1.csv</a></p>
@@ -374,12 +375,12 @@ document.write(`
 <a class="reference internal image-reference" href="../_images/tut1-countifex.png"><img alt="../_images/tut1-countifex.png" src="../_images/tut1-countifex.png" style="width: 300px;" />
 </a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.1 </span><span class="caption-text">To check if how many rows in this table have the entries in both columns positive, we would use <code class="docutils literal notranslate"><span class="pre">=COUNTIFS(A1:A10,&quot;&gt;0&quot;,</span> <span class="pre">B1:B10,&quot;&gt;0&quot;)</span></code>. This would return 3, since this is true of rows 2, 5 and 10.</span><a class="headerlink" href="#countif-example" title="Link to this image">#</a></p>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">To check if how many rows in this table have the entries in both columns positive, we would use <code class="docutils literal notranslate"><span class="pre">=COUNTIFS(A1:A10,&quot;&gt;0&quot;,</span> <span class="pre">B1:B10,&quot;&gt;0&quot;)</span></code>. This would return 3, since this is true of rows 2, 5 and 10.</span><a class="headerlink" href="#countif-example" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="exercise admonition" id="prob-ex3">
 
-<p class="admonition-title"><span class="caption-number">Exercise 2.3 </span></p>
+<p class="admonition-title"><span class="caption-number">Exercise 6 </span></p>
 <section id="exercise-content">
 <p>(a) Download the CSV file linked below, and import it into a spreadsheet.</p>
 <p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv">tut1-data2.csv</a></p>
@@ -395,7 +396,7 @@ document.write(`
 </div>
 <div class="exercise admonition" id="prob-ex4">
 
-<p class="admonition-title"><span class="caption-number">Exercise 2.4 </span></p>
+<p class="admonition-title"><span class="caption-number">Exercise 7 </span></p>
 <section id="exercise-content">
 <p>(a) Download the CSV file from last week (with the list of Scrabble tiles and their frequencies/scores), and import it into a spreadsheet.</p>
 <p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv">tut0-data2.csv</a></p>
@@ -407,7 +408,7 @@ document.write(`
 <p>For a lottery with <span class="math notranslate nohighlight">\(n\)</span> numbers to choose from, of which you need to match <span class="math notranslate nohighlight">\(k\)</span> to win the jackpot, the number of possible combinations that could be drawn is “<span class="math notranslate nohighlight">\(n\)</span> choose <span class="math notranslate nohighlight">\(k\)</span>”, which can be calculated using the <code class="docutils literal notranslate"><span class="pre">=COMBIN()</span></code> function (which takes as inputs <span class="math notranslate nohighlight">\(n\)</span> and <span class="math notranslate nohighlight">\(k\)</span>). The probability of winning the jackpot is 1 divided by the number of combinations (as exactly one of them will be the winning set of numbers).</p>
 <div class="exercise admonition" id="prob-ex5">
 
-<p class="admonition-title"><span class="caption-number">Exercise 2.5 </span></p>
+<p class="admonition-title"><span class="caption-number">Exercise 8 </span></p>
 <section id="exercise-content">
 <p>(a) Search online to find out information about lotteries in different countries. For each one, determine how many numbers are used, how many balls are drawn, how frequently draws operate, and how many numbers you need to match to win the jackpot.</p>
 <p>(b) For each country’s lottery, calculate the probability of winning the jackpot having bought a single ticket, and how likely a person buying a ticket in every draw for a week is to win on a given week (by multiplying the probability of winning on a given draw by the number of draws in a week).</p>
@@ -449,12 +450,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="0_Excel.html"
+       href="0.1_Excel_Solutions.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">1. </span>Spreadsheets Recap</p>
+        <p class="prev-next-title">Spreadsheets Recap - Solutions</p>
       </div>
     </a>
 </div>

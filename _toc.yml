@@ -7,7 +7,7 @@ format: jb-book
 root: _pages/intro
 parts:
 - caption: Tutorials
-  numbered: 3
+  numbered: false
   chapters:
   
   - file: _pages/0_Excel
