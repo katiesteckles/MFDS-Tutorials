@@ -50,7 +50,7 @@ To check if how many rows in this table have the entries in both columns positiv
 
 (a) Download the CSV file linked below, and import it into a spreadsheet.
 
-[![CSV icon](../_images/csv-icon-sq.png)]https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv) [tut1-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv)
+[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv) [tut1-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv)
 
 The data contains details of the weather in Manchester, for the hour from noon to 1pm on each day in 2024 (which had 366 days).
 
