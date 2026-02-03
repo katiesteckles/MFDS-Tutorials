@@ -12,11 +12,13 @@ In this week's tutorial, we will use techniques from probability to complete a m
 
 [![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data1.csv) [tut2-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data1.csv)
 
-(b) Select a column from the data, and use **Insert > Scatter Plot** to create a chart of the data. Use **Switch Row/Column** to make it into a one-dimensional plot showing the values on a single line.
+Data: Fisher, R. (1936). Iris [Dataset]. UCI Machine Learning Repository. [https://doi.org/10.24432/C56C76](https://doi.org/10.24432/C56C76).
+
+(b) Select one whole column from the data, and use **Insert > Scatter Plot** to create a chart of the data. Use **Switch Row/Column** to make it into a one-dimensional plot showing the values on a single line.
 
 (c) Where do you think the mean of this dataset will be? First estimate by looking at the plot, then calculate it by hand, and then use the `=AVERAGE()` function to check your answer.
 
-(d) Repeat this for each of the other columns in the data: creating separate charts for each, and estimating then calculating the mean.
+(d) Repeat this for each of the other columns in the data: creating separate charts for each, and estimating then calculating the mean. (You could also create one chart using all three columns, and then **Switch Row/Column** will show each as a separate line - but they won't necessarily be in .)
 
 (e) Which of the datasets do you think has the largest and smallest standard deviation? Make an estimate by looking at the plots, then calculate them (first by hand, then check using the `=STDEV.S()`(E) /`=STDEV()` (S) function.)
 
