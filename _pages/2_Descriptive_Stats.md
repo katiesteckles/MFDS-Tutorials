@@ -68,7 +68,7 @@ Data: Fisher, R. (1936). Iris [Dataset]. UCI Machine Learning Repository. [https
 
 ```
 
-Further reading:
-[The Datasaurus Dozen](https://en.wikipedia.org/wiki/Datasaurus_dozen)
+**Further reading:**
 
-[The Databet](https://mscroggs.co.uk/blog/101)
+* [The Datasaurus Dozen](https://en.wikipedia.org/wiki/Datasaurus_dozen)
+* [The Databet](https://mscroggs.co.uk/blog/101)
