@@ -8,7 +8,7 @@ In the below, where you are asked to calculate 'by hand', you can use a calculat
 
 
 ```{exercise}
-:label: prob-ex1
+:label: desc-ex1
 
 (a) Download the CSV file linked below, and import it into a spreadsheet.
 
@@ -25,7 +25,7 @@ In the below, where you are asked to calculate 'by hand', you can use a calculat
 ```
 
 ```{exercise}
-:label: prob-ex2
+:label: desc-ex2
 
 (a) Download the CSV file linked below, and import it into a spreadsheet. The data records measurements of the sizes of the petals and sepals of a particular species of iris.
 
@@ -54,7 +54,7 @@ Data: Fisher, R. (1936). Iris [Dataset]. UCI Machine Learning Repository. [https
 ```
 
 ```{exercise}
-:label: prob-ex3
+:label: desc-ex3
 
 (a) Download the CSV file linked below, and import it into a spreadsheet.
 
