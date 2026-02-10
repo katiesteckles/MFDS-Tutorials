@@ -2,7 +2,7 @@
 
 # Descriptive Statistics
 
-In this week's tutorial, we will use techniques from probability to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.
+In this week's tutorial, we will use techniques from statistics to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.
 
 In the below, where you are asked to calculate 'by hand', you can use a calculator, but should work it out yourself rather than asking the spreadsheet to calculate it.
 
@@ -20,7 +20,7 @@ In the below, where you are asked to calculate 'by hand', you can use a calculat
 
 (d) Repeat this for each of the other columns in the data: creating separate charts for each, and estimating then calculating the mean. (You could also create one chart using all the columns, and then **Switch Row/Column** will show each as a separate line.)
 
-(e) Which of the datasets do you think has the largest and smallest standard deviation? Make an estimate by looking at the charts, then calculate them (first by hand, then check using the `=STDEV.S()`(E) /`=STDEV()` (S) function.)
+(e) Which of the datasets do you think has the largest and smallest standard deviation? Make an estimate by looking at the charts, then calculate them (first by hand, then check using the `=STDEV.S()`(Excel) / `=STDEV()` (Sheets) function.)
 
 ```
 
