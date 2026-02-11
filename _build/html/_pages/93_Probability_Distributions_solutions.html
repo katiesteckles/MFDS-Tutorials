@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Probability Distributions &#8212; Maths for Data Science - Tutorial Content</title>
+    <title>Probability Distributions - Solutions &#8212; Maths for Data Science - Tutorial Content</title>
   
   
   
@@ -60,9 +60,7 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"tex": {"macros": {"adj": ["\\operatorname{adj}", 0]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/3_Probability_Distributions';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/93_Probability_Distributions_solutions';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -252,7 +250,7 @@
       
       
       
-      <li><a href="../_sources/_pages/3_Probability_Distributions.md" target="_blank"
+      <li><a href="../_sources/_pages/93_Probability_Distributions_solutions.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -334,7 +332,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Probability Distributions</h1>
+    <h1>Probability Distributions - Solutions</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -348,58 +346,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="probability-distributions">
-<h1>Probability Distributions<a class="headerlink" href="#probability-distributions" title="Link to this heading">#</a></h1>
-<p>In this week’s tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.</p>
-<div class="exercise admonition" id="dist-ex1">
-
-<p class="admonition-title"></p>
-<section id="exercise-content">
-<p>(a) Open a blank spreadsheet, and create cells containing the numbers 0 and 1 (labelling them ‘mu’ and ‘sigma’). Create a column of values ranging from -5 to 5, in increments of 0.25. Use the <code class="docutils literal notranslate"><span class="pre">=NORM.DIST()</span></code> function to create a column next to your first one, which calculates the height of the normal distribution for each value in your column, using the values of <span class="math notranslate nohighlight">\(\mu\)</span> and <span class="math notranslate nohighlight">\(\sigma\)</span> in the cells. Recall that <code class="docutils literal notranslate"><span class="pre">NORM.DIST</span></code> takes as inputs <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(\mu\)</span>, <span class="math notranslate nohighlight">\(\sigma\)</span> (the standard deviation, not the variance!) and a <code class="docutils literal notranslate"><span class="pre">TRUE</span></code>/<code class="docutils literal notranslate"><span class="pre">FALSE</span></code> value for whether or not you want a cumulative distribution.</p>
-<p>Hint: you will want to use dollars to fix the cell reference, so you can use the same cell for <span class="math notranslate nohighlight">\(\mu\)</span> and <span class="math notranslate nohighlight">\(\sigma\)</span> in each row.</p>
-<p>(b) Create a plot of these values (with your values from -5 to 5 on the <span class="math notranslate nohighlight">\(x\)</span>-axis, and the normal distribution values on the <span class="math notranslate nohighlight">\(y\)</span>-axis). Use a scatter plot with smooth lines, so you can see the curve. Try changing the values of mu and sigma to see how this varies the plot.</p>
-<p>(c) Create another column that calculates the same distribution but with the cumulative value set to <code class="docutils literal notranslate"><span class="pre">TRUE</span></code> instead. Plot these values on a separate scatter plot and observe how it changes as you change the statistics <span class="math notranslate nohighlight">\(\mu\)</span> and <span class="math notranslate nohighlight">\(\sigma\)</span>.</p>
-<p>(d) On a separate sheet within your spreadsheet, plot a column chart of the binomial distribution using the <code class="docutils literal notranslate"><span class="pre">=BINOM.DIST()</span></code> function, using whole number input values from 0 to 50, with cells for your values of <span class="math notranslate nohighlight">\(n\)</span> and <span class="math notranslate nohighlight">\(p\)</span> (setting these initially to <span class="math notranslate nohighlight">\(10\)</span> and <span class="math notranslate nohighlight">\(0.5\)</span>). Set the gap width for the bars to be around 10%.</p>
-<p>(e) Modify the values of <span class="math notranslate nohighlight">\(n\)</span> and <span class="math notranslate nohighlight">\(p\)</span> to see how this varies the distribution.</p>
-<p>(f) Create another plot of a normal distribution that approximates this binomial distribution (calculating the values of <span class="math notranslate nohighlight">\(\mu\)</span> and <span class="math notranslate nohighlight">\(\sigma\)</span> as described in the notes - being careful that the spreadsheet formula will be looking for <span class="math notranslate nohighlight">\(\sigma\)</span>, not <span class="math notranslate nohighlight">\(\sigma^2\)</span>). Compare this to your binomial plot (you may need to specify the length of the axes so they both show the same range of values).</p>
-<p>(g) Copy the series from your normal curve plot by selecting it and using the Copy command, then paste it onto your binomial plot. (It may initially convert the bar chart to a curve, but if you change the chart type to ‘combined’ it will show both overlaid). Observe what the plots look like when <span class="math notranslate nohighlight">\(n&lt;20\)</span>, and when <span class="math notranslate nohighlight">\(p\)</span> is close to 0 or 1. When is it a good approximation, and when is it less good?</p>
-<p>(h) Reset the values to <span class="math notranslate nohighlight">\(n=50\)</span> and <span class="math notranslate nohighlight">\(p=0.5\)</span>, and look closely at the bar for <span class="math notranslate nohighlight">\(x=20\)</span>. Imagine a vertical line going down through the middle of this bar, and consider the area to the left of this line. How does the area of the binomial bar compare to the area under the curve? If you were to instead consider the area to the left of the line at 20.5 (the right-hand end of the bar), would this more closely match the area under the curve? This is why we use continuity corrections.</p>
-</section>
-</div>
-<div class="exercise admonition" id="dist-ex2">
-
-<p class="admonition-title"></p>
-<section id="exercise-content">
-<p>(a) Which of the following datasets might you expect to follow a normal distribution?</p>
-<ul class="simple">
-<li><p>Number of dollars spent annually by customers of a wholesale distributor, in thousands</p></li>
-<li><p>Scores attained by students from two different school sets on a test</p></li>
-<li><p>Length of raisins, in mm</p></li>
-<li><p>Number sold in December 2010 for each item available in an online shop, sold in packs of 4</p></li>
-<li><p>Relative performance of the FTSE index on the Istanbul Stock Exchange, each day in 2009</p></li>
-<li><p>Heart rates of patients at a maternity clinic in rural Bangladesh</p></li>
-</ul>
-<p>(b) Download the CSV file linked below, and import it into a spreadsheet.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv">tut3-data1.csv</a></p>
-<p>(c) For each dataset, plot the data on a histogram and decide whether you think this data is normally distributed. Can you match up the datasets to the list above?</p>
-</section>
-</div>
-<div class="exercise admonition" id="dist-ex3">
-
-<p class="admonition-title"></p>
-<section id="exercise-content">
-<p>(a) X ∼ N(31, 2.12). Using the table, then checking your answer with a spreadsheet formula, find:</p>
-<p> (i) <span class="math notranslate nohighlight">\(P(X &lt; 28.8)\)</span></p>
-<p> (ii) <span class="math notranslate nohighlight">\(P(X &gt; 31.5)\)</span></p>
-<p> (iii) <span class="math notranslate nohighlight">\(P(X \leq 33)\)</span></p>
-<p> (iv) <span class="math notranslate nohighlight">\(P(28 \leq X &lt; 29)\)</span></p>
-<p>(b) X ∼ N(88, 13.72). Using the table, then checking your answer with a spreadsheet formula, find:</p>
-<p> (i) <span class="math notranslate nohighlight">\(P(X &lt; 84.7)\)</span></p>
-<p> (ii) <span class="math notranslate nohighlight">\(P(X &gt; 84)\)</span></p>
-<p> (iii) <span class="math notranslate nohighlight">\(P(X \leq 89)\)</span></p>
-<p> (iv) <span class="math notranslate nohighlight">\(P(87.4 \leq X &lt; 88.1)\)</span></p>
-</section>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="probability-distributions-solutions">
+<h1>Probability Distributions - Solutions<a class="headerlink" href="#probability-distributions-solutions" title="Link to this heading">#</a></h1>
 </section>
 
     <script type="text/x-thebe-config">
