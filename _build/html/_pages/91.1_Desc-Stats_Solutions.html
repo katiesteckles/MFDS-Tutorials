@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Descriptive Statistics &#8212; Maths for Data Science - Tutorial Content</title>
+    <title>Descriptive Statistics - Solutions &#8212; Maths for Data Science - Tutorial Content</title>
   
   
   
@@ -60,13 +60,10 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>window.MathJax = {"tex": {"macros": {"adj": ["\\operatorname{adj}", 0]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/2_Descriptive_Stats';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/91.1_Desc-Stats_Solutions';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Probability" href="1_Probability.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -129,6 +126,8 @@
       
       
       
+        
+      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -185,15 +184,12 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="0.1_Excel_Solutions.html">Spreadsheets Recap - Solutions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="1_Probability.html">Probability</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
-</ul>
-</details></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Descriptive Statistics</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
 </ul>
 </details></li>
 </ul>
@@ -250,7 +246,7 @@
       
       
       
-      <li><a href="../_sources/_pages/2_Descriptive_Stats.md" target="_blank"
+      <li><a href="../_sources/_pages/91.1_Desc-Stats_Solutions.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -332,7 +328,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Descriptive Statistics</h1>
+    <h1>Descriptive Statistics - Solutions</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -346,57 +342,35 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="descriptive-statistics">
-<h1>Descriptive Statistics<a class="headerlink" href="#descriptive-statistics" title="Link to this heading">#</a></h1>
-<p>In this week’s tutorial, we will use techniques from statistics to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.</p>
-<p>In the below, where you are asked to calculate ‘by hand’, you can use a calculator, but should work it out yourself rather than asking the spreadsheet to calculate it.</p>
-<div class="exercise admonition" id="desc-ex1">
+  <section class="tex2jax_ignore mathjax_ignore" id="descriptive-statistics-solutions">
+<h1>Descriptive Statistics - Solutions<a class="headerlink" href="#descriptive-statistics-solutions" title="Link to this heading">#</a></h1>
+<p>Solutions to the exercises from the Week 2 tutorial can be found below.</p>
+<div class="exercise admonition" id="desc-ex1-sol">
 
-<p class="admonition-title"><span class="caption-number">Exercise 9 </span></p>
+<p class="admonition-title"> (4)</p>
 <section id="exercise-content">
-<p>(a) Download the CSV file linked below, and import it into a spreadsheet.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data1.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data1.csv">tut2-data1.csv</a></p>
-<p>(b) Select one whole column from the data, and use <strong>Insert &gt; Scatter Plot</strong> to create a chart of the data. Use <strong>Switch Row/Column</strong> to make it into a one-dimensional plot showing the values on a single line. (Remember that multiple points with the same value will show as a single point.)</p>
-<p>(c) Where do you think the mean of this dataset will be? First estimate by looking at the plot (and type your estimate into a cell in the spreadsheet), then calculate it by hand, and then use the <code class="docutils literal notranslate"><span class="pre">=AVERAGE()</span></code> function to check your answer.</p>
-<p>(d) Repeat this for each of the other columns in the data: creating separate charts for each, and estimating then calculating the mean. (You could also create one chart using all the columns, and then <strong>Switch Row/Column</strong> will show each as a separate line.)</p>
-<p>(e) Which of the datasets do you think has the largest and smallest standard deviation? Make an estimate by looking at the charts, then calculate them (first by hand, then check using the <code class="docutils literal notranslate"><span class="pre">=STDEV.S()</span></code>(Excel) / <code class="docutils literal notranslate"><span class="pre">=STDEV()</span></code> (Sheets) function.)</p>
+<p>The spreadsheets linked below have all the tasks completed. (There may be more than one way to complete the tasks, but a correct solution should get the same answers.)</p>
+<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%201%20-%20Descriptive%20Statistics%20(solutions)%20Ex4.xlsx"><img alt="Excel icon" src="../_images/excel-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%201%20-%20Descriptive%20Statistics%20(solutions)%20Ex4.xlsx">Tutorial 1 - Descriptive Statistics (solutions) Ex4.xlsx</a></p>
+<p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1oPxS2_4bQVmthOH54K0zPeevChjTA2nx-Imzqksn1wc/copy"><img alt="Google Sheets icon" src="../_images/sheets-icon-sq.png" /></a> <a class="reference external" href="https://docs.google.com/spreadsheets/d/1oPxS2_4bQVmthOH54K0zPeevChjTA2nx-Imzqksn1wc/copy">Tutorial 1 - Descriptive Statistics (Ex4)</a></p>
 </section>
 </div>
-<div class="exercise admonition" id="desc-ex2">
+<div class="exercise admonition" id="desc-ex-sol">
 
-<p class="admonition-title"><span class="caption-number">Exercise 10 </span></p>
+<p class="admonition-title"> (5)</p>
 <section id="exercise-content">
-<p>(a) Download the CSV file linked below, and import it into a spreadsheet. The data records measurements of the sizes of the petals and sepals of a particular species of iris.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2a.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2a.csv">tut2-data2a.csv</a></p>
-<p>(b) Calculate the mean, median, mode, variance and standard deviation for each of the datasets.</p>
-<p>(c) What do these statistics tell you about the different data sets? Comment on the similarities and differences. (Type your answers into a cell in the spreadsheet, so you have a record of it.)</p>
-<p>(d) Download the CSV file linked below, and import it into a spreadsheet. The data records the same measurements as the first, but for a different species of iris.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2b.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2b.csv">tut2-data2b.csv</a></p>
-<p>(e) From looking at the table, which of the datasets would you expect to have the smallest/largest mean and smallest/largest standard deviation? (Make notes in the spreadsheet to record your predictions.)</p>
-<p>(f) Calculate an estimate for the mean, median, mode, variance and standard deviation for each of the datasets, and compare these to your predictions.</p>
-<p>(g) Explain why, given this data, you can only estimate the mean and not calculate it
-precisely. (Type your answer into a cell in the spreadsheet, so you have a record of it.)</p>
-<p>(h) How might you calculate the largest and smallest possible values the mean could take for each dataset?</p>
-<p>Data: Fisher, R. (1936). Iris [Dataset]. UCI Machine Learning Repository. <a class="reference external" href="https://doi.org/10.24432/C56C76">https://doi.org/10.24432/C56C76</a>.</p>
+<p>The spreadsheets linked below have all the tasks completed. (There may be more than one way to complete the tasks, but a correct solution should get the same answers.)</p>
+<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%201%20-%20Descriptive%20Statistics%20(solutions)%20Ex5.xlsx"><img alt="Excel icon" src="../_images/excel-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%201%20-%20Descriptive%20Statistics%20(solutions)%20Ex5.xlsx">Tutorial 1 - Descriptive Statistics (solutions) Ex5.xlsx</a></p>
+<p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1oPxS2_4bQVmthOH54K0zPeevChjTA2nx-Imzqksn1wc/copy"><img alt="Google Sheets icon" src="../_images/sheets-icon-sq.png" /></a> <a class="reference external" href="https://docs.google.com/spreadsheets/d/1oPxS2_4bQVmthOH54K0zPeevChjTA2nx-Imzqksn1wc/copy">Tutorial 1 - Descriptive Statistics (Ex5)</a></p>
 </section>
 </div>
-<div class="exercise admonition" id="desc-ex3">
+<div class="exercise admonition" id="desc-ex3-sol">
 
-<p class="admonition-title"><span class="caption-number">Exercise 11 </span></p>
+<p class="admonition-title"> (6)</p>
 <section id="exercise-content">
-<p>(a) Download the CSV file linked below, and import it into a spreadsheet.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data3.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data3.csv">tut2-data3.csv</a></p>
-<p>(b) Pick 4 of the datasets (including <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> data) from the 13 sets, and for each one, create a scatter plot of the <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> values against each other on a pair of axes, by creating a chart in Excel.</p>
-<p>(c) For each of the pairs you have chosen, calculate (and round to two decimal places using the function <code class="docutils literal notranslate"><span class="pre">=ROUND(x,2)</span></code>) the mean and sample variance of the <span class="math notranslate nohighlight">\(x\)</span> values, and the mean and sample variance of the <span class="math notranslate nohighlight">\(y\)</span> values. What do you notice?</p>
-<p>(d) Extend this to the rest of the datasets.</p>
+<p>The spreadsheets linked below have all the tasks completed.</p>
+<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%201%20-%20Descriptive%20Statistics%20(solutions)%20Ex6.xlsx"><img alt="Excel icon" src="../_images/excel-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%201%20-%20Descriptive%20Statistics%20(solutions)%20Ex6.xlsx">Tutorial 1 - Descriptive Statistics (solutions) Ex6.xlsx</a></p>
+<p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1oPxS2_4bQVmthOH54K0zPeevChjTA2nx-Imzqksn1wc/copy"><img alt="Google Sheets icon" src="../_images/sheets-icon-sq.png" /></a> <a class="reference external" href="https://docs.google.com/spreadsheets/d/1oPxS2_4bQVmthOH54K0zPeevChjTA2nx-Imzqksn1wc/copy">Tutorial 1 - Descriptive Statistics (Ex6)</a></p>
 </section>
-</div>
-<p><strong>Further reading:</strong></p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Datasaurus_dozen">The Datasaurus Dozen</a></p></li>
-<li><p><a class="reference external" href="https://mscroggs.co.uk/blog/101">The Databet</a></p></li>
-</ul>
-<div class="toctree-wrapper compound">
 </div>
 </section>
 
@@ -430,15 +404,6 @@ precisely. (Type your answer into a cell in the spreadsheet, so you have a recor
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="1_Probability.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Probability</p>
-      </div>
-    </a>
 </div>
                 </footer>
               
