@@ -21,3 +21,7 @@ parts:
   - file: _pages/2_Descriptive_Stats
     sections:
     - glob: _pages/2*
+    
+  - file: _pages/3_Probability_Distributions
+    sections:
+    - glob: _pages/3*

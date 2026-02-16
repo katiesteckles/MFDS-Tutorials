@@ -66,6 +66,7 @@
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Descriptive Statistics" href="2_Descriptive_Stats.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -128,8 +129,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -186,7 +185,7 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="0.1_Excel_Solutions.html">Spreadsheets Recap - Solutions</a></li>
 </ul>
@@ -196,6 +195,9 @@
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="2_Descriptive_Stats.html">Descriptive Statistics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Probability Distributions</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
 </ul>
 </details></li>
 </ul>
@@ -353,7 +355,7 @@ document.write(`
 <p>In this week’s tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.</p>
 <div class="exercise admonition" id="dist-ex1">
 
-<p class="admonition-title"></p>
+<p class="admonition-title"><span class="caption-number">Exercise 12 </span></p>
 <section id="exercise-content">
 <p>(a) Open a blank spreadsheet, and create cells containing the numbers 0 and 1 (labelling them ‘mu’ and ‘sigma’). Create a column of values ranging from -5 to 5, in increments of 0.25. Use the <code class="docutils literal notranslate"><span class="pre">=NORM.DIST()</span></code> function to create a column next to your first one, which calculates the height of the normal distribution for each value in your column, using the values of <span class="math notranslate nohighlight">\(\mu\)</span> and <span class="math notranslate nohighlight">\(\sigma\)</span> in the cells. Recall that <code class="docutils literal notranslate"><span class="pre">NORM.DIST</span></code> takes as inputs <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(\mu\)</span>, <span class="math notranslate nohighlight">\(\sigma\)</span> (the standard deviation, not the variance!) and a <code class="docutils literal notranslate"><span class="pre">TRUE</span></code>/<code class="docutils literal notranslate"><span class="pre">FALSE</span></code> value for whether or not you want a cumulative distribution.</p>
 <p>Hint: you will want to use dollars to fix the cell reference, so you can use the same cell for <span class="math notranslate nohighlight">\(\mu\)</span> and <span class="math notranslate nohighlight">\(\sigma\)</span> in each row.</p>
@@ -368,7 +370,7 @@ document.write(`
 </div>
 <div class="exercise admonition" id="dist-ex2">
 
-<p class="admonition-title"></p>
+<p class="admonition-title"><span class="caption-number">Exercise 13 </span></p>
 <section id="exercise-content">
 <p>(a) Which of the following datasets might you expect to follow a normal distribution?</p>
 <ul class="simple">
@@ -386,19 +388,26 @@ document.write(`
 </div>
 <div class="exercise admonition" id="dist-ex3">
 
-<p class="admonition-title"></p>
+<p class="admonition-title"><span class="caption-number">Exercise 14 </span></p>
 <section id="exercise-content">
-<p>(a) X ∼ N(31, 2.12). Using the table, then checking your answer with a spreadsheet formula, find:</p>
+<p>(a) <span class="math notranslate nohighlight">\(X \sim N(31, 2.12)\)</span>. Using the table, then checking your answer with a spreadsheet formula, find:</p>
 <p> (i) <span class="math notranslate nohighlight">\(P(X &lt; 28.8)\)</span></p>
 <p> (ii) <span class="math notranslate nohighlight">\(P(X &gt; 31.5)\)</span></p>
 <p> (iii) <span class="math notranslate nohighlight">\(P(X \leq 33)\)</span></p>
 <p> (iv) <span class="math notranslate nohighlight">\(P(28 \leq X &lt; 29)\)</span></p>
-<p>(b) X ∼ N(88, 13.72). Using the table, then checking your answer with a spreadsheet formula, find:</p>
+<p>(b) <span class="math notranslate nohighlight">\(X \sim N(88, 13.72)\)</span>. Using the table, then checking your answer with a spreadsheet formula, find:</p>
 <p> (i) <span class="math notranslate nohighlight">\(P(X &lt; 84.7)\)</span></p>
 <p> (ii) <span class="math notranslate nohighlight">\(P(X &gt; 84)\)</span></p>
 <p> (iii) <span class="math notranslate nohighlight">\(P(X \leq 89)\)</span></p>
 <p> (iv) <span class="math notranslate nohighlight">\(P(87.4 \leq X &lt; 88.1)\)</span></p>
+<p>(c) Let <span class="math notranslate nohighlight">\(X \sim N(10, 2.5)\)</span> and <span class="math notranslate nohighlight">\(Y \sim N(50, 6.3)\)</span>. Write down the distribution of:</p>
+<p> (i) <span class="math notranslate nohighlight">\(2X\)</span></p>
+<p> (ii) <span class="math notranslate nohighlight">\(3Y + 40\)</span></p>
+<p> (iii) <span class="math notranslate nohighlight">\(X+Y\)</span></p>
+<p> (iv) Plot these distributions, and those of <span class="math notranslate nohighlight">\(X\)</span> and <span class="math notranslate nohighlight">\(Y\)</span>, and compare the graphs.</p>
 </section>
+</div>
+<div class="toctree-wrapper compound">
 </div>
 </section>
 
@@ -432,6 +441,15 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="2_Descriptive_Stats.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Descriptive Statistics</p>
+      </div>
+    </a>
 </div>
                 </footer>
               

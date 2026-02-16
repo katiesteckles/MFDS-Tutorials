@@ -46,7 +46,7 @@ You might not expect a normal distribution from:
 ```{exercise}
 :label: dist-ex3
 
-(a) X ∼ N(31, 2.12). Using the table, then checking your answer with a spreadsheet formula, find:
+(a) $X \sim N(31, 2.12)$. Using the table, then checking your answer with a spreadsheet formula, find:
 
 &emsp;(i) 0.1474
 
@@ -57,7 +57,7 @@ You might not expect a normal distribution from:
 &emsp;(iv) 0.0939
 
 
-(b) X ∼ N(88, 13.72). Using the table, then checking your answer with a spreadsheet formula, find:
+(b) $X \sim N(88, 13.72)$. Using the table, then checking your answer with a spreadsheet formula, find:
 
 &emsp;(i) 0.4048
 
@@ -66,5 +66,16 @@ You might not expect a normal distribution from:
 &emsp;(iii) 0.5291
 
 &emsp;(iv) 0.0204
+
+(c) Let $X \sim N(10, 2.5^2)$ and $Y \sim N(50, 6.3^2)$. The given distributions are :
+
+&emsp;(i) $2X \sim N(20, 5^2)$
+
+&emsp;(ii) $3Y + 40 \sim N(190, 18.9^2)$
+
+&emsp;(iii) $X+Y \sim N(60, 6.77^2)$
+
+&emsp;(iv) No solutions are provided for this, as it is an exercise for you to see how the graphs compare.
+
 
 ```
