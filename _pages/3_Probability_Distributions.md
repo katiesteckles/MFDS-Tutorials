@@ -50,7 +50,7 @@ Hint: you will want to use dollars to fix the cell reference, so you can use the
 ```{exercise}
 :label: dist-ex3
 
-(a) X ∼ N(31, 2.12). Using the table, then checking your answer with a spreadsheet formula, find:
+(a) $X \sim N(31, 2.12)$. Using the table, then checking your answer with a spreadsheet formula, find:
 
 &emsp;(i) $P(X < 28.8)$
 
@@ -61,7 +61,7 @@ Hint: you will want to use dollars to fix the cell reference, so you can use the
 &emsp;(iv) $P(28 \leq X < 29)$
 
 
-(b) X ∼ N(88, 13.72). Using the table, then checking your answer with a spreadsheet formula, find:
+(b) $X \sim N(88, 13.72)$. Using the table, then checking your answer with a spreadsheet formula, find:
 
 &emsp;(i) $P(X < 84.7)$
 
@@ -71,4 +71,14 @@ Hint: you will want to use dollars to fix the cell reference, so you can use the
 
 &emsp;(iv) $P(87.4 \leq X < 88.1)$
 
+
+(c) Let $X \sim N(10, 2.5)$ and $Y \sim N(50, 6.3)$. Write down the distribution of:
+
+&emsp;(i) $2X$
+
+&emsp;(ii) $3Y + 40$
+
+&emsp;(iii) $X+Y$
+
+&emsp;(iv) Plot these distributions, and those of $X$ and $Y$, and compare the graphs.
 ```
