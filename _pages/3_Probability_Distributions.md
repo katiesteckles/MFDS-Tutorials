@@ -81,4 +81,5 @@ Hint: you will want to use dollars to fix the cell reference, so you can use the
 &emsp;(iii) $X+Y$
 
 &emsp;(iv) Plot these distributions, and those of $X$ and $Y$, and compare the graphs.
+
 ```
