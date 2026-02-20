@@ -50,7 +50,7 @@ Hint: you will want to use dollars to fix the cell reference, so you can use the
 ```{exercise}
 :label: dist-ex3
 
-(a) $X \sim N(31, 2.12)$. Using the table, then checking your answer with a spreadsheet formula, find:
+(a) $X \sim N(31, 2.1^2)$. Using the table, then checking your answer with a spreadsheet formula, find:
 
 &emsp;(i) $P(X < 28.8)$
 
@@ -61,7 +61,7 @@ Hint: you will want to use dollars to fix the cell reference, so you can use the
 &emsp;(iv) $P(28 \leq X < 29)$
 
 
-(b) $X \sim N(88, 13.72)$. Using the table, then checking your answer with a spreadsheet formula, find:
+(b) $X \sim N(88, 13.7^2)$. Using the table, then checking your answer with a spreadsheet formula, find:
 
 &emsp;(i) $P(X < 84.7)$
 
