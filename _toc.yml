@@ -25,3 +25,7 @@ parts:
   - file: _pages/3_Probability_Distributions
     sections:
     - glob: _pages/3*
+    
+  - file: _pages/4_Inferential_Stats
+    sections:
+    - glob: _pages/4*
