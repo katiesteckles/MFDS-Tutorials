@@ -1,7 +1,7 @@
 
 # Tutorial Projects
 
-This site contains materials for the Maths for Data Science tutorials on the DTSP Apprenticeship course at Manchester Metropolitan University.
+This site contains materials for the Maths for <a href="https://xkcd.com/2582/">Data Science</a> tutorials on the DTSP Apprenticeship course at Manchester Metropolitan University.
 
 The materials are intended for students to work through during the tutorial sessions each week during the module, and to practice using the mathematical techniques they have learned in the previous week's lecture.
 
