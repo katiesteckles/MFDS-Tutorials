@@ -405,17 +405,18 @@ document.write(`
 
 <p class="admonition-title"></p>
 <section id="exercise-content">
-<p>(a) Download the CSV file linked below, and import it into a spreadsheet. The data shows the number of hire bikes used each day in Washington DC in 2011/12 (credit: [<a class="reference external" href="https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset">https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset</a>](Hadi Fanaee-T)).</p>
+<p>(a) Download the CSV file linked below, and import it into a spreadsheet. The data shows the number of hire bikes used each day in Washington DC in 2011/12 (credit: <a href="https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset">Hadi Fanaee-T</a>).</p>
 <p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut4-data1.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut4-data1.csv">tut4-data1.csv</a></p>
 <p>(b) Use one of the functions below to extract random samples of size 5 from the data, by pasting it in a cell somewhere nearby:</p>
 <p><code class="docutils literal notranslate"><span class="pre">=INDEX($A$1:$A$1000,RANDARRAY(5,</span> <span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">COUNTA($A$1:$A$1000),</span> <span class="pre">TRUE))</span></code></p>
 <p>(Excel)</p>
 <p><code class="docutils literal notranslate"><span class="pre">=ARRAY_CONSTRAIN(SORT(FILTER($A$1:$A1000,$A$1:$A1000&lt;&gt;&quot;&quot;),RANDARRAY(COUNTA($A$1:$A$1000),1),1),5,1)</span></code></p>
 <p>(Google Sheets - triple-click to highlight the whole line)</p>
-<p><em>Note:</em> since these formulae contain ‘random’ functions, they will recalculate whenever you make any change to the spreadsheet. If you wish to retain a particular set of data at any point, you will need to copy the cells and Paste &gt; Values only.</p>
-<p>(c) Drag this formula to fill horizontally to create 100 samples. Calculare the mean of each sample. Plot their means on a curve and observe the normal distribution.</p>
-<p>(d) Extend this to 1000 samples (be aware that the formula puts data into the cell it’s in and the four cells below it, so you won’t be able to just drag to extend it vertically) and compare the plot.</p>
-<p>(e) Repeat this with a larger sample size, and compare the plots.</p>
+<p><strong>Note:</strong> since these formulae contain ‘random’ functions, they will recalculate whenever you make any change to the spreadsheet. If you wish to retain a particular set of data at any point, you will need to copy the cells and Paste &gt; Values only.</p>
+<p>(c) Drag this formula to fill horizontally to create 100 samples. Calculate the mean of each sample above the column. Plot the means on a histogram and observe the normal distribution.</p>
+<p>(d) Calculate the mean of the sample means, and compare it to the mean of the whole dataset.</p>
+<p>(e) Extend this to 1000 samples (be aware that the formula puts data into the cell it’s in and the four cells below it, so you won’t be able to just drag to extend it vertically) and compare the plot.</p>
+<p>(f) Repeat this with a larger sample size, and compare the plots.</p>
 </section>
 </div>
 </section>

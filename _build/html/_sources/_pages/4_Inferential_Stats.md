@@ -33,6 +33,7 @@ Type your answers to this question into a text file or document, and save it alo
 |Health and Social Care | 200 |
 |Media Studies | 43 |
  
+
 Each student takes only one course.
 
 The manager has access to the college’s information system that holds full details of each of the enrolled students including name, address, telephone number and their course of study. She wants to compare the opinions of students on each course and has a generous budget to pay for the cost of the survey.
@@ -50,7 +51,7 @@ Give one advantage and one disadvantage of carrying out this survey using
 ```{exercise}
 :label: infst-ex3
 
-(a) Download the CSV file linked below, and import it into a spreadsheet. The data shows the number of hire bikes used each day in Washington DC in 2011/12 (credit: [https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset](Hadi Fanaee-T)).
+(a) Download the CSV file linked below, and import it into a spreadsheet. The data shows the number of hire bikes used each day in Washington DC in 2011/12 (credit: <a href="https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset">Hadi Fanaee-T</a>).
 
 [![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut4-data1.csv) [tut4-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut4-data1.csv)
 
@@ -64,12 +65,14 @@ Give one advantage and one disadvantage of carrying out this survey using
 
 (Google Sheets - triple-click to highlight the whole line)
 
-*Note:* since these formulae contain 'random' functions, they will recalculate whenever you make any change to the spreadsheet. If you wish to retain a particular set of data at any point, you will need to copy the cells and Paste > Values only.
+**Note:** since these formulae contain 'random' functions, they will recalculate whenever you make any change to the spreadsheet. If you wish to retain a particular set of data at any point, you will need to copy the cells and Paste > Values only.
 
-(c) Drag this formula to fill horizontally to create 100 samples. Calculare the mean of each sample. Plot their means on a curve and observe the normal distribution.
+(c) Drag this formula to fill horizontally to create 100 samples. Calculate the mean of each sample above the column. Plot the means on a histogram and observe the normal distribution.
 
-(d) Extend this to 1000 samples (be aware that the formula puts data into the cell it's in and the four cells below it, so you won't be able to just drag to extend it vertically) and compare the plot.
+(d) Calculate the mean of the sample means, and compare it to the mean of the whole dataset.
 
-(e) Repeat this with a larger sample size, and compare the plots.
+(e) Extend this to 1000 samples (be aware that the formula puts data into the cell it's in and the four cells below it, so you won't be able to just drag to extend it vertically) and compare the plot.
+
+(f) Repeat this with a larger sample size, and compare the plots.
 
 ```
