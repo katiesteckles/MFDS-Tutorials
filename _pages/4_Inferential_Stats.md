@@ -56,9 +56,13 @@ Give one advantage and one disadvantage of carrying out this survey using
 
 (b) Use one of the functions below to extract random samples of size 5 from the data, by pasting it in a cell somewhere nearby:
 
-`=INDEX($A$1:$A$1000,RANDARRAY(5, 1, 1, COUNTA($A$1:$A$1000), TRUE))` (Excel)
+`=INDEX($A$1:$A$1000,RANDARRAY(5, 1, 1, COUNTA($A$1:$A$1000), TRUE))`
 
-`=ARRAY_CONSTRAIN(SORT(FILTER($A$1:$A1000,$A$1:$A1000<>""),RANDARRAY(COUNTA($A$1:$A1000),1),1),5,1)` (Google Sheets)
+(Excel)
+
+`=ARRAY_CONSTRAIN(SORT(FILTER($A$1:$A1000,$A$1:$A1000<>""),RANDARRAY(COUNTA($A$1:$A$1000),1),1),5,1)`
+
+(Google Sheets - triple-click to highlight the whole line)
 
 *Note:* since these formulae contain 'random' functions, they will recalculate whenever you make any change to the spreadsheet. If you wish to retain a particular set of data at any point, you will need to copy the cells and Paste > Values only.
 
