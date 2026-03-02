@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Correlation and Regression &#8212; Maths for Data Science - Tutorial Content</title>
+    <title>Correlation and Regression - Solutions &#8212; Maths for Data Science - Tutorial Content</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/proof.css?v=b4b7a797" />
     <link rel="stylesheet" type="text/css" href="../_static/exercise.css?v=982b99e0" />
@@ -60,6 +60,8 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"tex": {"macros": {"adj": ["\\operatorname{adj}", 0]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '_pages/s5.1_Correlation_and_regression_Solutions';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -201,6 +203,9 @@
 <li class="toctree-l2"><a class="reference internal" href="3.1_Probability_Distributions_Solutions.html">Probability Distributions - Solutions</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="4_Inferential_Stats.html">Inferential Statistics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+</ul>
+</details></li>
 </ul>
 
     </div>
@@ -337,7 +342,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Correlation and Regression</h1>
+    <h1>Correlation and Regression - Solutions</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -351,30 +356,17 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="correlation-and-regression">
-<h1>Correlation and Regression<a class="headerlink" href="#correlation-and-regression" title="Link to this heading">#</a></h1>
-<p>In this week’s tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="correlation-and-regression-solutions">
+<h1>Correlation and Regression - Solutions<a class="headerlink" href="#correlation-and-regression-solutions" title="Link to this heading">#</a></h1>
 <div class="exercise admonition" id="correg-ex1-sol">
 
 <p class="admonition-title"></p>
 <section id="exercise-content">
-<p>(a)</p>
-</section>
-</div>
-<div class="exercise admonition" id="correg-ex2-sol">
-
-<p class="admonition-title"></p>
-<section id="exercise-content">
-<p>(a)</p>
-<p>(b) Download the CSV file linked below, and import it into a spreadsheet.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv">tut3-data1.csv</a></p>
-</section>
-</div>
-<div class="exercise admonition" id="correg-ex3-sol">
-
-<p class="admonition-title"></p>
-<section id="exercise-content">
-<p>(a)</p>
+<p>(a) <span class="math notranslate nohighlight">\(cov(X,Y) = 0.055\)</span></p>
+<p>(b) <span class="math notranslate nohighlight">\(cov(X,Y) = 3.9166\)</span></p>
+<p>(c) <span class="math notranslate nohighlight">\(cov(X,Y) = 0.388\)</span></p>
+<p>(d) <span class="math notranslate nohighlight">\(cov(X,Y) = -1.8055\)</span></p>
+<p>(e) <span class="math notranslate nohighlight">\(cov(X,Y) = -5.055\)</span></p>
 </section>
 </div>
 </section>
