@@ -7,7 +7,7 @@ In this week's tutorial, we will use the techniques from the previous lecture to
 ```{exercise}
 :label: correg-ex1
 
-For each of the datasets below, calculate the covariance - first by hand, then using a table in a spreadsheet (with columns for $x$, $x-\bar{x}$, $y$ and $y-\bar{y}$). Then check using the `COVAR()` function.
+For each of the datasets below, calculate the covariance - first by hand, then using a table in a spreadsheet (with columns for $x$, $x-\bar{x}$, $y$ and $y-\bar{y}$). Then check using the `COVARIANCE.S()` function.
 
 (a)
 
@@ -93,7 +93,7 @@ For each of the datasets below, calculate the covariance - first by hand, then u
 ```{exercise}
 :label: correg-ex3
 
-For each of the datasets below, the values of $a$ and $b$ are given (for the regression line $y = a + bx$). Which way round are the two values? Examine the data and make a prediction, then plot the data in Excel on a scatter plot, and use the `=LINEST()` function to check.
+For each of the datasets in Exercise 18, the values of $a$ and $b$ are given (for the regression line $y = a + bx$). Which way round are the two values? Examine the data and make a prediction, then plot the data in Excel on a scatter plot, and use the `=LINEST()` function to check.
 
 (a) 2.113, 0.0113
 

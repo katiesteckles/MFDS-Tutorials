@@ -29,3 +29,7 @@ parts:
   - file: _pages/4_Inferential_Stats
     sections:
     - glob: _pages/4*
+    
+  - file: _pages/5_Correlation_and_regression
+    sections:
+    - glob: _pages/5*  
