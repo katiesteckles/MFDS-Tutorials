@@ -9,15 +9,68 @@ In this week's tutorial, we will use the techniques from the previous lecture to
 
 For each of the datasets below, calculate the covariance - first by hand, then using a table in a spreadsheet (with columns for $x$, $x-\bar{x}$, $y$ and $y-\bar{y}$). Then check using the `COVARIANCE.S()` function.
 
-(a) \begin{tabular}{c|c} X & Y\\ \hline	5 & 1\\	7 & 2\\	8 & 3\\	2 & 3\\	3 & 1\\	3 & 3\\	\end{tabular}
-							
-(b)	\begin{tabular}{c|c} X & Y\\ \hline	7 & 9\\	9 & 7\\	7 & 4\\	7 & 6\\	2 & 1\\	3 & 6\\	\end{tabular}
-							
-(c) \begin{tabular}{c|c} X & Y\\ \hline	9 & 7\\	4 & 8\\	1 & 8\\	2 & 1\\	7 & 4\\	6 & 4\\	\end{tabular}
-													
-(d) \begin{tabular}{c|c} X & Y\\ \hline	6 & 10\\	5 & 8\\	7 & 7\\	8 & 1\\	8 & 9\\	9 & 6\\	\end{tabular}
-														
-(e) \begin{tabular}{c|c} X & Y\\ \hline	3 & 8\\	3 & 7\\	8 & 3\\	1 & 10\\ 2 & 8\\ 5 & 5\\ \end{tabular}
+(a)
+
+ | *X* | *Y* |
+|---|---|
+|5 | 1| 
+ |  7 | 2| 
+ |  8 | 3| 
+ |  2 | 3| 
+ |  3 | 1| 
+ |  3 | 3|
+   
+---
+
+(b)
+
+ | *X* | *Y* |
+|---|---|
+|7 | 9| 
+ |  9 | 7| 
+ |  7 | 4| 
+ |  7 | 6| 
+ |  2 | 1| 
+ |  3 | 6|
+      
+---
+       
+(c)
+
+ | *X* | *Y* |
+|---|---|
+|9 | 7| 
+ |  4 | 8| 
+ |  1 | 8| 
+ |  2 | 1| 
+ |  7 | 4| 
+ |  6 | 4|
+
+---  
+             
+(d)
+
+ | *X* | *Y* |
+|---|---|
+|6 | 10| 
+ |  5 | 8| 
+ |  7 | 7| 
+ |  8 | 1| 
+ |  8 | 9| 
+ |  9 | 6|
+   
+---
+              
+(e) 
+
+ | *X* | *Y* |
+|---|---|
+|3 | 8| 
+ |  3 | 7| 
+ |  8 | 3| 
+ |  1 | 10| 
+ |  2 | 8| 
+ |  5 | 5|
 
 ```
 
