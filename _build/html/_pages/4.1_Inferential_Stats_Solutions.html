@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Inferential Statistics &#8212; Maths for Data Science - Tutorial Content</title>
+    <title>Inferential Statistics - Solutions &#8212; Maths for Data Science - Tutorial Content</title>
   
   
   
@@ -60,10 +60,12 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/s4.1_Inferential_Stats_Solutions';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/4.1_Inferential_Stats_Solutions';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Correlation and Regression" href="5_Correlation_and_regression.html" />
+    <link rel="prev" title="Inferential Statistics" href="4_Inferential_Stats.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -126,8 +128,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -184,7 +184,7 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="0.1_Excel_Solutions.html">Spreadsheets Recap - Solutions</a></li>
 </ul>
@@ -201,7 +201,8 @@
 <li class="toctree-l2"><a class="reference internal" href="3.1_Probability_Distributions_Solutions.html">Probability Distributions - Solutions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="4_Inferential_Stats.html">Inferential Statistics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="4_Inferential_Stats.html">Inferential Statistics</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Inferential Statistics - Solutions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="5_Correlation_and_regression.html">Correlation and Regression</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
@@ -261,7 +262,7 @@
       
       
       
-      <li><a href="../_sources/_pages/s4.1_Inferential_Stats_Solutions.md" target="_blank"
+      <li><a href="../_sources/_pages/4.1_Inferential_Stats_Solutions.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -343,7 +344,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Inferential Statistics</h1>
+    <h1>Inferential Statistics - Solutions</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -357,58 +358,32 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="inferential-statistics">
-<h1>Inferential Statistics<a class="headerlink" href="#inferential-statistics" title="Link to this heading">#</a></h1>
-<p>In this week’s tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="inferential-statistics-solutions">
+<h1>Inferential Statistics - Solutions<a class="headerlink" href="#inferential-statistics-solutions" title="Link to this heading">#</a></h1>
 <div class="exercise admonition" id="infst-ex1-sol">
 
-<p class="admonition-title"> (15)</p>
+<p class="admonition-title"><span class="caption-number">Exercise 18 </span> (15)</p>
 <section id="exercise-content">
 <p>There are not solutions to this exercise, as it is designed for you to explore sampling distributions.</p>
 </section>
 </div>
 <div class="exercise admonition" id="infst-ex2-sol">
 
-<p class="admonition-title"> (16)</p>
+<p class="admonition-title"><span class="caption-number">Exercise 19 </span> (16)</p>
 <section id="exercise-content">
-<p>(a) A college manager wants to survey students’ opinions of enrichment activities. She decides to survey the students on the courses summarised in the table below.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p><em>Course</em></p></th>
-<th class="head"><p><em>Number of students enrolled</em></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Leisure and Sport</p></td>
-<td><p>420</p></td>
-</tr>
-<tr class="row-odd"><td><p>Information Technology</p></td>
-<td><p>337</p></td>
-</tr>
-<tr class="row-even"><td><p>Health and Social Care</p></td>
-<td><p>200</p></td>
-</tr>
-<tr class="row-odd"><td><p>Media Studies</p></td>
-<td><p>43</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>Each student takes only one course.</p>
-<p>The manager has access to the college’s information system that holds full details of each of the enrolled students including name, address, telephone number and their course of study. She wants to compare the opinions of students on each course and has a generous budget to pay for the cost of the survey.</p>
-<p>Give one advantage and one disadvantage of carrying out this survey using</p>
-<p> (i) judgemental sampling,</p>
-<p> (ii) proportional stratified sampling.</p>
-<p>(b) The data about the students is stored in a spreadsheet. Describe, in words, how you could obtain a proportional stratified sample of 100 students from this data, using a spreadsheet.</p>
+<p>(a)
+ (i) Judgemental sampling would allow the manager to pick out students who have participated in lots of enrichment activities, or those who would benefit most from them, which might mean the data is richer and more useful for decision-making based on opinions. However, it would not be a reflective sample of the whole cohort, and might be biased in favour of students on certain courses.</p>
+<p> (ii) Proportional stratified sampling would give a balance of students from across the courses, and give a more representative sample. However, many of the students chosen randomly might not have much experience of enrichment activities, and you can’t guarantee that everyone chosen will complete the survey (using the budget to provide incentives for participation might help). This would be more useful for quantitative data about the proportion of students participating in enrichment.</p>
+<p>(b) The student data could be filtered by course and split out into four separate lists. For each course, you would multiply the number of students taking that course by 100 and divide by 1000 to get the number of students from that course in a representative sample, which would be 42, 34, 20 and 4 (rounding to the nearest student) making up the sample of 100 students. Then, this many random numbers will be chosen, using a random number function like <code class="docutils literal notranslate"><span class="pre">=RANDBETWEEN(1,</span> <span class="pre">420)</span></code> filled across 42 cells, to pick this number of students from each cohort to make up the sample.</p>
 </section>
 </div>
 <div class="exercise admonition" id="infst-ex3-sol">
 
-<p class="admonition-title"> (17)</p>
+<p class="admonition-title"><span class="caption-number">Exercise 20 </span> (17)</p>
 <section id="exercise-content">
 <p>A spreadsheet with the instructions followed is below.</p>
 <p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%204%20-%25Inferential%20Statistics%20%28solutions%29%20Ex17.xlsx"><img alt="Excel icon" src="../_images/excel-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%204%20-%25Inferential%20Statistics%20%28solutions%29%20Ex17.xlsx">Tutorial 4 - Inferential Statistics (solutions) Ex17.xlsx</a></p>
-<p><a class="reference internal" href="#LINK"><span class="xref myst"><img alt="Google Sheets icon" src="../_images/sheets-icon-sq.png" /></span></a> <a class="reference internal" href="#LINK"><span class="xref myst">Tutorial 4 - Inferential Statistics (solutions) Ex17</span></a></p>
+<p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1F9zkHcOdVbuxYjgIhOHl1MpunfiNK2Gs/copy"><img alt="Google Sheets icon" src="../_images/sheets-icon-sq.png" /></a> <a class="reference external" href="https://docs.google.com/spreadsheets/d/1F9zkHcOdVbuxYjgIhOHl1MpunfiNK2Gs/copy">Tutorial 4 - Inferential Statistics (solutions) Ex17</a></p>
 </section>
 </div>
 </section>
@@ -443,6 +418,24 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="4_Inferential_Stats.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Inferential Statistics</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="5_Correlation_and_regression.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Correlation and Regression</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
