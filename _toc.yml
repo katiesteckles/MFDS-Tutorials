@@ -33,3 +33,7 @@ parts:
   - file: _pages/5_Correlation_and_regression
     sections:
     - glob: _pages/5*  
+    
+  - file: _pages/67_Hypothesis_testing
+    sections:
+    - glob: _pages/6*
