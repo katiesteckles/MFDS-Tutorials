@@ -31,3 +31,26 @@ $$\mathbf{a} = (2, 2) \qquad
 
 
 ```
+
+```{exercise}
+:label: vecs-ex3
+
+(a) Open the link below and observe that Wolfram|Alpha can calulate the dot product of two vectors.
+
+[Wolfram|Alpha - Dot Product example](https://www.wolframalpha.com/input?i=%7B1%2C2%2C3%7D.%7B2%2C3%2C4%7D)
+
+(b) Change the values in the brackets to calculate other dot products. Use the examples below, calculating them first by hand then checking using the website.
+
+&emsp;(i) $\mathbf{a} \cdot \mathbf{b}$, where $\mathbf{a}=(1,2,3)$ and $\mathbf{b}=(4,−5,6)$
+
+&emsp;(ii) $\mathbf{c} \cdot \mathbf{d}$, where $\mathbf{c}=(−4,−9)$ and $\mathbf{d}=(−1,2)$
+
+&emsp;(iii) If $\mathbf{a}=(6,−1,3)$, for what value of $c$ is the vector $\mathbf{b}=(4,c,−2)$ perpendicular to $\mathbf{a}$?
+
+
+
+
+```
+
+
+
