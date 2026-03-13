@@ -28,14 +28,14 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/proof.css?v=b4b7a797" />
-    <link rel="stylesheet" type="text/css" href="../_static/exercise.css?v=982b99e0" />
+    <link rel="stylesheet" type="text/css" href="../_static/proof.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/exercise.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-proof.css?v=9dc65063" />
   
@@ -60,10 +60,13 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"tex": {"macros": {"adj": ["\\operatorname{adj}", 0]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '_pages/8_Vectors';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Hypothesis Testing" href="67_Hypothesis_testing.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -126,8 +129,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -184,32 +185,36 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">Spreadsheets Recap</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="0.1_Excel_Solutions.html">Spreadsheets Recap - Solutions</a></li>
-</ul>
+</ul><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="1_Probability.html">Probability</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="1_Probability.html">Probability</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="1.1_Probability_Solutions.html">Probability - Solutions</a></li>
-</ul>
+</ul><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="2_Descriptive_Stats.html">Descriptive Statistics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="2_Descriptive_Stats.html">Descriptive Statistics</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="2.1_Desc-Stats_Solutions.html">Descriptive Statistics - Solutions</a></li>
-</ul>
+</ul><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="3_Probability_Distributions.html">Probability Distributions</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="3_Probability_Distributions.html">Probability Distributions</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="3.1_Probability_Distributions_Solutions.html">Probability Distributions - Solutions</a></li>
-</ul>
+</ul><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="4_Inferential_Stats.html">Inferential Statistics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="4_Inferential_Stats.html">Inferential Statistics</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="4.1_Inferential_Stats_Solutions.html">Inferential Statistics - Solutions</a></li>
-</ul>
+</ul><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="5_Correlation_and_regression.html">Correlation and Regression</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
-</ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="5_Correlation_and_regression.html">Correlation and Regression</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="5.1_Correlation_and_regression_Solutions.html">Correlation and Regression - Solutions</a></li>
+</ul><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="67_Hypothesis_testing.html">Hypothesis Testing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
-</ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="67_Hypothesis_testing.html">Hypothesis Testing</a><ul class="simple">
+</ul><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Vectors</a><ul class="simple">
+</ul><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary>
 </details></li>
 </ul>
 
@@ -366,26 +371,40 @@ document.write(`
 <p>In this week’s tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.</p>
 <div class="exercise admonition" id="vecs-ex1">
 
-<p class="admonition-title"></p>
+<p class="admonition-title"><span class="caption-number">Exercise 23 </span></p>
 <section id="exercise-content">
-<p>(a)</p>
+<p>(a) Plot the vectors given below on a pair of axes. (Graph paper will be available).</p>
+<div class="math notranslate nohighlight">
+\[\mathbf{a} = (2, 2) \qquad
+\mathbf{b} = (4, 2) \qquad
+\mathbf{c} = (-3, 1) \qquad
+\mathbf{d} = (1, -2)\]</div>
+<p>(b) List the possible pairs of vectors from this set.</p>
+<p>(c) The dot product of a pair of vectors measures the extent to which those two vectors are pointing towards the same place. Without calculating them, predict the ordering of the dot products of each of the pairs (from the largest negative value to the largest positive value). Then, confirm your calculations.</p>
 </section>
 </div>
 <div class="exercise admonition" id="vecs-ex2">
 
-<p class="admonition-title"></p>
+<p class="admonition-title"><span class="caption-number">Exercise 24 </span></p>
 <section id="exercise-content">
-<p>(a)</p>
-<p>(b) Download the CSV file linked below, and import it into a spreadsheet.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv">tut3-data1.csv</a></p>
+<p>(a) Load the Geogebra file by clicking the link.</p>
+<p><a class="reference external" href="https://www.geogebra.org/classic/ksk4j5fr"><img alt="CSV icon" src="../_images/ggb-icon.png" /></a> <a class="reference external" href="https://www.geogebra.org/classic/ksk4j5fr">GeoGebra - Dot Product</a></p>
+<p>(b) Drag the points at the ends of the vectors to change their values, and observe what happens to the value of the dot product.</p>
 </section>
 </div>
 <div class="exercise admonition" id="vecs-ex3">
 
-<p class="admonition-title"></p>
+<p class="admonition-title"><span class="caption-number">Exercise 25 </span></p>
 <section id="exercise-content">
-<p>(a)</p>
+<p>(a) Open the link below and observe that Wolfram|Alpha can calulate the dot product of two vectors.</p>
+<p><a class="reference external" href="https://www.wolframalpha.com/input?i=%7B1%2C2%2C3%7D.%7B2%2C3%2C4%7D">Wolfram|Alpha - Dot Product example</a></p>
+<p>(b) Change the values in the brackets to calculate other dot products. Use the examples below, calculating them first by hand then checking using the website.</p>
+<p> (i) <span class="math notranslate nohighlight">\(\mathbf{a} \cdot \mathbf{b}\)</span>, where <span class="math notranslate nohighlight">\(\mathbf{a}=(1,2,3)\)</span> and <span class="math notranslate nohighlight">\(\mathbf{b}=(4,−5,6)\)</span></p>
+<p> (ii) <span class="math notranslate nohighlight">\(\mathbf{c} \cdot \mathbf{d}\)</span>, where <span class="math notranslate nohighlight">\(\mathbf{c}=(−4,−9)\)</span> and <span class="math notranslate nohighlight">\(\mathbf{d}=(−1,2)\)</span></p>
+<p> (iii) If <span class="math notranslate nohighlight">\(\mathbf{a}=(6,−1,3)\)</span>, for what value of <span class="math notranslate nohighlight">\(c\)</span> is the vector <span class="math notranslate nohighlight">\(\mathbf{b}=(4,c,−2)\)</span> perpendicular to <span class="math notranslate nohighlight">\(\mathbf{a}\)</span>?</p>
 </section>
+</div>
+<div class="toctree-wrapper compound">
 </div>
 </section>
 
@@ -419,6 +438,15 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="67_Hypothesis_testing.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Hypothesis Testing</p>
+      </div>
+    </a>
 </div>
                 </footer>
               

@@ -37,3 +37,7 @@ parts:
   - file: _pages/67_Hypothesis_testing
     sections:
     - glob: _pages/6*
+    
+  - file: _pages/8_Vectors
+    sections:
+    - glob: _pages/8*

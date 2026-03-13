@@ -13,9 +13,9 @@ In this week's tutorial, we will use the techniques from the previous lecture to
 
 (c) Click the 'Animated' button on the section below to take a sample of size 5 from your distribution and add its mean to the plot of sample means below. Repeat this a few times. Using the '5' button will add 5 samples at a time (without showing the individual values dropping in).
 
-(c) Once you have become bored with doing this 5 samples at a time, click the '10,000' button to add 10,000 sample means, and observe that the distribution of sample means approximates a normal distribution. Compare the mean of this distribution to the mean of your original population.
+(d) Once you have become bored with doing this 5 samples at a time, click the '10,000' button to add 10,000 sample means, and observe that the distribution of sample means approximates a normal distribution. Compare the mean of this distribution to the mean of your original population.
 
-(d) Design a different distribution in the top plot using the mouse, and try this again.
+(e) Design a different distribution in the top plot using the mouse, and try this again.
 
 ```
 
