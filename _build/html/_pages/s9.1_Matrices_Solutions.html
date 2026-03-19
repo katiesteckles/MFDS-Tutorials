@@ -60,6 +60,8 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"tex": {"macros": {"adj": ["\\operatorname{adj}", 0]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '_pages/s9.1_Matrices_Solutions';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -210,10 +212,13 @@
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="67_Hypothesis_testing.html">Hypothesis Testing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="67.1_Hypothesis_testing_Solutions.html">Hypothesis Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="67.1_Hypothesis_testing_Solutions.html">Hypothesis Testing - Solutions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="8_Vectors.html">Vectors</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="9_Matrices.html">Matrices</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
 </ul>
 </details></li>
 </ul>
@@ -373,23 +378,99 @@ document.write(`
 
 <p class="admonition-title"></p>
 <section id="exercise-content">
-<p>(a)</p>
+<p>  (a) Expand along the first row. Then</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{eqnarray*} \operatorname{det}A &amp;=&amp; 1 \cdot \begin{vmatrix} 1 &amp; 2 \\ 4 &amp; 5 \end{vmatrix} - 1 \cdot \begin{vmatrix} 6 &amp; 2 \\ 2 &amp; 5 \end{vmatrix} + 3 \cdot \begin{vmatrix} 6 &amp; 1 \\ 2 &amp; 4 \end{vmatrix} \\
+        &amp;=&amp; (1 \cdot 5- 2\cdot 4) - (6\cdot 5 - 2 \cdot 2) + 3 \cdot (6 \cdot 4 - 1 \cdot 2) \\
+         &amp;=&amp; -3 - 26 + 66\\
+         &amp;=&amp; 37
+        \end{eqnarray*}\]</div>
+<p>  (b) <span class="math notranslate nohighlight">\(A' = \begin{pmatrix}  2 &amp; 4 &amp; 5\\ 6 &amp; 1 &amp; 2\\ 1 &amp; 1 &amp; 3 \end{pmatrix}\)</span></p>
+<p>Expand along the bottom row. Then</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{eqnarray*} \operatorname{det}A &amp;=&amp; 1 \cdot \begin{vmatrix} 4 &amp; 5 \\ 1 &amp; 2 \end{vmatrix} - 1 \cdot \begin{vmatrix} 2 &amp; 5 \\ 6 &amp; 2 \end{vmatrix} + 3 \cdot \begin{vmatrix} 2 &amp; 4 \\ 6 &amp; 1 \end{vmatrix} \\
+        &amp;=&amp; 1 \cdot (4 \cdot 2- 1\cdot 5) - 1 \cdot(2\cdot 2 - 6 \cdot 5) + 3 \cdot (2 \cdot 1 - 6 \cdot 4) \\
+         &amp;=&amp; 3 - (-26) + (-66)\\
+         &amp;=&amp; -37
+        \end{eqnarray*}\]</div>
+<p>  (c) <span class="math notranslate nohighlight">\(B = \begin{pmatrix} 1 &amp; 1 &amp; 3\\  1 &amp; 1 &amp; 3\\ 1 &amp; 1 &amp; 3 \end{pmatrix}\)</span></p>
+<p>Expand along the bottom row. Then</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{eqnarray*} \operatorname{det}A &amp;=&amp; 1 \cdot \begin{vmatrix} 1 &amp; 3 \\ 1 &amp; 3 \end{vmatrix} - 1 \cdot \begin{vmatrix} 1 &amp; 3 \\ 1 &amp; 3 \end{vmatrix} + 3 \cdot \begin{vmatrix} 1 &amp; 1 \\ 1 &amp; 1 \end{vmatrix} \\
+        &amp;=&amp; 1 \cdot (1 \cdot 3- 3\cdot 1) - 1 \cdot(1\cdot 3 - 3 \cdot 1) + 3 \cdot (1 \cdot 1 - 1 \cdot 1) \\
+         &amp;=&amp; 0 - 0 + 0\\
+         &amp;=&amp; 0
+        \end{eqnarray*}\]</div>
 </section>
 </div>
 <div class="exercise admonition" id="mats-ex2-sol">
 
 <p class="admonition-title"></p>
 <section id="exercise-content">
-<p>(a)</p>
-<p>(b) Download the CSV file linked below, and import it into a spreadsheet.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv">tut3-data1.csv</a></p>
+<p> (a) Expand along the first row.</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{eqnarray*} \operatorname{det}C &amp;=&amp; 3 \cdot \begin{vmatrix} 5 &amp; 2 \\ -1 &amp; 5 \end{vmatrix} - (-1) \cdot \begin{vmatrix} 1 &amp; 2 \\ -2 &amp; 5 \end{vmatrix} + 4 \cdot \begin{vmatrix} 1 &amp; 5 \\ -2 &amp; -1 \end{vmatrix} \\
+        &amp;=&amp; 3 \cdot (5 \cdot 5- 2\cdot (-1)) + 1 \cdot(1\cdot 5 - 2 \cdot (-2)) + 4 \cdot (1 \cdot (-1) - 5 \cdot (-2)) \\
+         &amp;=&amp; 81 + 9 + 36\\
+         &amp;=&amp; 126
+        \end{eqnarray*}\]</div>
+<p> (b) <span class="math notranslate nohighlight">\(C^{\mathsf{T}} = \begin{pmatrix} 3 &amp; 1 &amp; -2\\
+     -1 &amp; 5 &amp; -1\\
+    4 &amp; 2 &amp; 5
+     \end{pmatrix}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\operatorname{det}C^{\mathsf{T}} = \operatorname{det}C\)</span>.</p>
+<p>Indeed, expand down the first column:</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{eqnarray*} \operatorname{det}C &amp;=&amp; 3 \cdot \begin{vmatrix} 5 &amp; -1 \\ 2 &amp; 5 \end{vmatrix} - (-1) \cdot \begin{vmatrix} 1 &amp; -2 \\ 2 &amp; 5 \end{vmatrix} + 4 \cdot \begin{vmatrix} 1 &amp; -2 \\ 5 &amp; -1 \end{vmatrix} \\
+        &amp;=&amp; 3 \cdot (5 \cdot 5 - (-1)\cdot 2) + 1 \cdot(1\cdot 5 - (-2) \cdot 2) + 4 \cdot (1 \cdot (-1) - (-2) \cdot 5) \\
+         &amp;=&amp; 81 + 9 + 36\\
+         &amp;=&amp; 126
+        \end{eqnarray*}\]</div>
+<p> (c)</p>
+<p><span class="math notranslate nohighlight">\(C + \begin{pmatrix} 0 &amp; 0 &amp; 0\\
+     0 &amp; 0 &amp; 0\\
+    2 &amp; 1 &amp; -5
+     \end{pmatrix} = \begin{pmatrix} 3 &amp; -1 &amp; 4\\
+     1 &amp; 5 &amp; 2\\
+    0 &amp; 0 &amp; 0
+     \end{pmatrix}\)</span></p>
+<p>Expand along the bottom row, and the terms will all be multiplied by zero, so the determinant is zero.</p>
+<p> (d) <span class="math notranslate nohighlight">\(C - \begin{pmatrix} 0 &amp; 0 &amp; 0\\
+     0 &amp; 0 &amp; 0\\
+    2 &amp; 1 &amp; -5
+     \end{pmatrix} = \begin{pmatrix} 3 &amp; -1 &amp; 4\\
+     1 &amp; 5 &amp; 2\\
+    -4&amp; -2&amp; -10
+     \end{pmatrix} \)</span></p>
+<p>Expand along the first row:</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{eqnarray*} &amp;&amp; 3 \cdot \begin{vmatrix} 5 &amp; 2 \\ -2 &amp; 10 \end{vmatrix} - (-1) \cdot \begin{vmatrix} -1 &amp; 4 \\ -4 &amp; 10 \end{vmatrix} + 4 \cdot \begin{vmatrix} -1 &amp; 5\\ -4 &amp; -2\end{vmatrix} \\
+        &amp;=&amp; 3 \cdot (5 \cdot 10 - 2\cdot (-2)) - 1 \cdot ((-1) \cdot 10 - 4\cdot (-4)) + 8 \cdot ((-1) \cdot (-2) - 5\cdot (-4)) \\
+         &amp;=&amp; 162 - (-18) + 72\\
+         &amp;=&amp; 252
+        \end{eqnarray*}\]</div>
+<p> (e) <span class="math notranslate nohighlight">\(C - \begin{pmatrix} 0 &amp; -1 &amp; 4\\
+     1 &amp; 0 &amp; 2\\
+    -2 &amp; -1 &amp; 0
+     \end{pmatrix} = \begin{pmatrix} 3 &amp; 0 &amp; 0\\
+     0 &amp; 5 &amp; 0\\
+    0 &amp; 0 &amp; 5
+     \end{pmatrix}\)</span></p>
+<p>Expand along the first row:</p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{eqnarray*} &amp;&amp; 3 \cdot \begin{vmatrix} 5 &amp; 0 \\ 0 &amp; 5 \end{vmatrix}\\
+        &amp;=&amp; 3 \cdot (5 \cdot 5- 0\cdot0) \\
+         &amp;=&amp; 3 \cdot 5 \cdot 5\\
+         &amp;=&amp; 75
+        \end{eqnarray*}\]</div>
+<p>In general, the determinant of a diagonal matrix (one whose off-diagonal entries are all zero) is the product of the entries on the diagonal.</p>
 </section>
 </div>
 <div class="exercise admonition" id="mats-ex3-sol">
 
 <p class="admonition-title"></p>
 <section id="exercise-content">
-<p>(a)</p>
+<p>No solutions, as this is for exploration.</p>
 </section>
 </div>
 </section>

@@ -60,10 +60,13 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"tex": {"macros": {"adj": ["\\operatorname{adj}", 0]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = '_pages/9_Matrices';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Vectors" href="8_Vectors.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -126,8 +129,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -184,7 +185,7 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="0_Excel.html">Spreadsheets Recap</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="0.1_Excel_Solutions.html">Spreadsheets Recap - Solutions</a></li>
 </ul>
@@ -210,10 +211,13 @@
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="67_Hypothesis_testing.html">Hypothesis Testing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="67.1_Hypothesis_testing_Solutions.html">Hypothesis Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="67.1_Hypothesis_testing_Solutions.html">Hypothesis Testing - Solutions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="8_Vectors.html">Vectors</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Matrices</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
 </ul>
 </details></li>
 </ul>
@@ -371,26 +375,48 @@ document.write(`
 <p>In this week’s tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.</p>
 <div class="exercise admonition" id="mats-ex1">
 
-<p class="admonition-title"></p>
+<p class="admonition-title"><span class="caption-number">Exercise 26 </span></p>
 <section id="exercise-content">
-<p>(a)</p>
+<p><span class="math notranslate nohighlight">\(A = \begin{pmatrix} 1 &amp; 1 &amp; 3\\ 6 &amp; 1 &amp; 2\\ 2 &amp; 4 &amp; 5 \end{pmatrix}\)</span></p>
+<p>Let <span class="math notranslate nohighlight">\(A'\)</span> be the matrix created by reflecting the matrix <span class="math notranslate nohighlight">\(A\)</span> from top to bottom, and let <span class="math notranslate nohighlight">\(B\)</span> be the matrix made from three copies of the first row of <span class="math notranslate nohighlight">\(A\)</span>.</p>
+<p> (a) What is <span class="math notranslate nohighlight">\(\operatorname{det}A\)</span>?</p>
+<p> (b) What is <span class="math notranslate nohighlight">\(\operatorname{det}A'\)</span>?</p>
+<p> (c) What is <span class="math notranslate nohighlight">\(\operatorname{det}B\)</span>?</p>
 </section>
 </div>
 <div class="exercise admonition" id="mats-ex2">
 
-<p class="admonition-title"></p>
+<p class="admonition-title"><span class="caption-number">Exercise 27 </span></p>
 <section id="exercise-content">
-<p>(a)</p>
-<p>(b) Download the CSV file linked below, and import it into a spreadsheet.</p>
-<p><a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv"><img alt="CSV icon" src="../_images/csv-icon-sq.png" /></a> <a class="reference external" href="https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv">tut3-data1.csv</a></p>
+<p><span class="math notranslate nohighlight">\(C = \begin{pmatrix} 3 &amp; -1 &amp; 4\\ 1 &amp; 5 &amp; 2\\ -2 &amp; -1 &amp; 5 \end{pmatrix}\)</span></p>
+<p> (a) What is <span class="math notranslate nohighlight">\(\operatorname{det}C\)</span>?</p>
+<p> (b) What is <span class="math notranslate nohighlight">\(\operatorname{det}C^{\mathsf{T}}\)</span>?</p>
+<p> (c) What is <span class="math notranslate nohighlight">\(\operatorname{det}(C + \begin{pmatrix} 0 &amp; 0 &amp; 0\\
+     0 &amp; 0 &amp; 0\\
+    2 &amp; 1 &amp; -5
+     \end{pmatrix})\)</span>?</p>
+<p> (d) What is <span class="math notranslate nohighlight">\(\operatorname{det}(C - \begin{pmatrix} 0 &amp; 0 &amp; 0\\
+     0 &amp; 0 &amp; 0\\
+    2 &amp; 1 &amp; -5
+     \end{pmatrix})\)</span>?</p>
+<p> (e) What is <span class="math notranslate nohighlight">\(\operatorname{det}(C - \begin{pmatrix} 0 &amp; -1 &amp; 4\\
+     1 &amp; 0 &amp; 2\\
+    -2 &amp; -1 &amp; 0
+     \end{pmatrix})\)</span>?</p>
 </section>
 </div>
 <div class="exercise admonition" id="mats-ex3">
 
-<p class="admonition-title"></p>
+<p class="admonition-title"><span class="caption-number">Exercise 28 </span></p>
 <section id="exercise-content">
-<p>(a)</p>
+<p>(a) Open the link below and observe that Wolfram|Alpha can calulate the determinant of a matrix.</p>
+<p><a class="reference external" href="https://www.wolframalpha.com/input?i=determinant+of+%7B%7B2%2C1%7D%2C%7B1%2C3%7D%7D">Wolfram|Alpha - Matrix Determinant example</a></p>
+<p>(b) Note that for a <span class="math notranslate nohighlight">\(2 \times 2\)</span> matrix, the value of the determinant is equal to the area of a parallelogram made using the two vectors. Change the values in the matrix to see how this affects the shape, and the determinant.</p>
+<p>(c) Recall that swapping two rows or columns in a matrix makes the determinant change sign. Try this with the matrix and observe what happens to the parallelogram. Why might this be a negative value?</p>
+<p>(c) Change the matrix so it is now a <span class="math notranslate nohighlight">\(3 \times 3\)</span> matrix. (Note how the matrix is written in Wolfram language, and modify this to add an extra entry in each row, and a third row).</p>
 </section>
+</div>
+<div class="toctree-wrapper compound">
 </div>
 </section>
 
@@ -424,6 +450,15 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="8_Vectors.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Vectors</p>
+      </div>
+    </a>
 </div>
                 </footer>
               

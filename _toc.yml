@@ -41,3 +41,7 @@ parts:
   - file: _pages/8_Vectors
     sections:
     - glob: _pages/8*
+    
+  - file: _pages/9_Matrices
+    sections:
+    - glob: _pages/9*

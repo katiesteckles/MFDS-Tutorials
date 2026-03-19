@@ -212,10 +212,13 @@
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="67_Hypothesis_testing.html">Hypothesis Testing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="67.1_Hypothesis_testing_Solutions.html">Hypothesis Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="67.1_Hypothesis_testing_Solutions.html">Hypothesis Testing - Solutions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="8_Vectors.html">Vectors</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="9_Matrices.html">Matrices</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
 </ul>
 </details></li>
 </ul>
@@ -375,14 +378,20 @@ document.write(`
 
 <p class="admonition-title"></p>
 <section id="exercise-content">
-<p>(a) Plot the vectors given below on a pair of axes. (Graph paper will be available).</p>
+<p>(a)</p>
+<p>[<img alt="A set of x,y-axes with the given points plotted" src="../_images/dot-product-axes.png" />]</p>
+<p>(b) The pairs are:</p>
 <div class="math notranslate nohighlight">
-\[\mathbf{a} = (2, 2) \qquad
-\mathbf{b} = (4, 2) \qquad
-\mathbf{c} = (-3, 1) \qquad
-\mathbf{d} = (1, -2)\]</div>
-<p>(b) List the possible pairs of vectors from this set.</p>
-<p>(c) The dot product of a pair of vectors measures the extent to which those two vectors are pointing towards the same place. Without calculating them, predict the ordering of the dot products of each of the pairs (from the largest negative value to the largest positive value). Then, confirm your calculations.</p>
+\[ab, ac, ad, bc, bd, cd\]</div>
+<p>(c) The dot products, in order from most negative to most positive, are:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\mathbf{b} \cdot \mathbf{c} = 4 \cdot (-3) + 2 \cdot 1 = -10\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{c} \cdot \mathbf{d} = (-3) \cdot 1 + 1 \cdot (-2) = -5\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{a} \cdot \mathbf{c} = 2 \cdot (-3) + 2 \cdot 1 = -4\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{a} \cdot \mathbf{d} = 2 \cdot 1 + 2 \cdot (-2) = -2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{b} \cdot \mathbf{d} = 4 \cdot 1 + 2 \cdot (-2) = 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{a} \cdot \mathbf{b} = 2 \cdot 4 + 2 \cdot 2 = 12\)</span></p></li>
+</ul>
 </section>
 </div>
 <div class="exercise admonition" id="vecs-ex2-sol">
