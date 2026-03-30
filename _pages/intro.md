@@ -32,6 +32,9 @@ The materials are intended for students to work through during the tutorial sess
 * <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20A.pdf">Practice Paper A</a>
 * <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20B.pdf">Practice Paper B</a>
 * <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20C.pdf">Practice Paper C</a>
+
+If any of the links above are broken, please send Katie an email or Teams message.
+
 ---
 
 `````{grid}
