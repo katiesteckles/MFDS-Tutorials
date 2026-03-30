@@ -32,10 +32,10 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="../_static/proof.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/exercise.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/proof.css?v=b4b7a797" />
+    <link rel="stylesheet" type="text/css" href="../_static/exercise.css?v=982b99e0" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-proof.css?v=9dc65063" />
   
@@ -347,7 +347,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -363,6 +365,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture-notes">Lecture Notes:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-papers">Practice Papers</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -376,6 +387,28 @@ document.write(`
 <h1>Tutorial Projects<a class="headerlink" href="#tutorial-projects" title="Link to this heading">#</a></h1>
 <p>This site contains materials for the Maths for <a href="https://xkcd.com/2582/">Data Science</a> tutorials on the DTSP Apprenticeship course at Manchester Metropolitan University.</p>
 <p>The materials are intended for students to work through during the tutorial sessions each week during the module, and to practice using the mathematical techniques they have learned in the previous week’s lecture.</p>
+<hr class="docutils" />
+<section id="lecture-notes">
+<h2>Lecture Notes:<a class="headerlink" href="#lecture-notes" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%201%20-%20Probability.pdf">Week 1 (Probability)</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%201%20-%20Probability%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%201%20-%20Probability%20Exercises%20(solutions).pdf">Exercises Solutions</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%202%20-%20Descriptive%20Statistics.pdf">Week 2 (Descriptive Statistics)</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%202%20-%20Descriptive%20Statistics%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%202%20-%20Descriptive%20Statistics%20Exercises%20(solutions).pdf">Exercises Solutions</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%203%20-%20Probability%20Distributions.pdf">Week 3 (Probability Distributions)</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%203%20-%20Probability%20Distributions%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%203%20-%20Probability%20Distributions%20Exercises%20(solutions).pdf">Exercises Solutions</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%204%20-%20Inferential Statistics.pdf">Week 4 (Inferential Statistics)</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%204%20-%20Inferential Statistics%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%204%20-%20Inferential Statistics%20Exercises%20(solutions).pdf">Exercises Solutions</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%205%20-%20Correlation%20and%20Regression.pdf">Week 5 (Correlation and Regression)</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%205%20-%20Correlation%20and%20Regression%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%205%20-%20Correlation%20and%20Regression%20Exercises%20(solutions).pdf">Exercises Solutions</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%206%20-%20Hypothesis %20Testing.pdf">Week 6 (Hypothesis Testing)</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%206%20-%20Hypothesis %20Testing%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%206%20-%20Hypothesis %20Testing%20Exercises%20(solutions).pdf">Exercises Solutions</a> - <a href="https://youtu.be/HjHDculnoCE">Lecture recording</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%207%20-%20Hypothesis %20Testing%20(continued).pdf">Week 7 (Hypothesis Testing - continued)</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%201%20-%20Hypothesis %20Testing%20-%20continued%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%201%20-%20Hypothesis %20Testing%20(continued)%20Exercises%20(solutions).pdf">Exercises Solutions</a> - <a href="https://youtu.be/Rv7RLXdwX7k">Lecture recording</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%208%20-%20Vectors.pdf">Week 8 (Vectors)</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%208%20-%20Vectors%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%208%20-%20Vectors%20Exercises%20(solutions).pdf">Exercises Solutions</a> - <a href="https://youtu.be/Jahhb_Y1Vos">Lecture recording</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%209%20-%20Matrices.pdf">Week 9 (Matrices)</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%209%20-%20Matrices%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20Lecture%209%20-%20Matrices%20Exercises%20(solutions).pdf">Exercises Solutions</a> - <a href="https://youtu.be/wWp_Kndlf08">Lecture recording</a></p></li>
+</ul>
+</section>
+<section id="practice-papers">
+<h2>Practice Papers<a class="headerlink" href="#practice-papers" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20A.pdf">Practice Paper A</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20B.pdf">Practice Paper B</a></p></li>
+<li><p><a href="https://katiesteckles.github.io/MDFS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20C.pdf">Practice Paper C</a></p></li>
+</ul>
 <hr class="docutils" />
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row docutils">
@@ -391,6 +424,7 @@ Office: 3.27 (Dalton Building)</p>
 </div>
 </div>
 </div>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -440,6 +474,22 @@ Office: 3.27 (Dalton Building)</p>
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture-notes">Lecture Notes:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practice-papers">Practice Papers</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
