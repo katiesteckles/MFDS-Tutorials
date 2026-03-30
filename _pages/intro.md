@@ -7,6 +7,12 @@ The materials are intended for students to work through during the tutorial sess
 
 ---
 
+### Lecture Notes:
+
+* <a href="../resources/pdfs/MFDS%20Lecture%201%20-%20Probability.pdf">Week 1 (Probability)</a> - <a href="../resources/pdfs/MFDS%20Lecture%201%20-%20Probability%20(completed).pdf">Completed</a> - <a href="../resources/pdfs/MFDS%20Lecture%201%20-%20Probability%20Exercises%20(solutions).pdf">Exercises Solutions</a>
+
+---
+
 `````{grid}
 ````{grid-item}
 :columns: 2
