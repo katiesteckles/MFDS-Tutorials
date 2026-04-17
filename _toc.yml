@@ -45,3 +45,7 @@ parts:
   - file: _pages/9_Matrices
     sections:
     - glob: _pages/9*
+    
+  - file: _pages/a_Matrices_cont
+    sections:
+    - glob: _pages/a*
