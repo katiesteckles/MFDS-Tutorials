@@ -1,32 +1,22 @@
 
 
-# Matrices
+# Matrices (continued) - Solutions
 
-In this week's tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.
-
-```{exercise}
+```{exercise} 29
 :label: matsc-ex1-sol
+:nonumber:
 
-(a) 
-
-```
-
-```{exercise}
-:label: matsc-ex2-sol
-
-(a) 
-
-(b) Download the CSV file linked below, and import it into a spreadsheet.
-
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv) [tut3-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv)
-
-
+No solutions here, as this is just for practice.
 
 ```
 
-```{exercise}
-:label: matsc-ex3-sol
+```{exercise} 30
+:label: matsc-ex2
 
-(a) 
+A spreadsheet with the instructions followed is below.
+
+[![Excel icon](../_images/excel-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%2010%20-%20Matrices%20%28continued%29%20%28solutions%29.xlsx) [Tutorial 10 - Matrices (continued) (solutions).xlsx](https://katiesteckles.github.io/MFDS-Tutorials/resources/Tutorial%2010%20-%20Matrices%20%28continued%29%20%28solutions%29.xlsx)
+
+[![Google Sheets icon](../_images/sheets-icon-sq.png)](TBC) [Tutorial 10 - Matrices (continued) (solutions)](TBC)
 
 ```

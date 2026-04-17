@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Hypothesis Testing &#8212; Maths for Data Science - Tutorial Content</title>
+    <title>Vectors - Solutions &#8212; Maths for Data Science - Tutorial Content</title>
   
   
   
@@ -62,12 +62,12 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"tex": {"macros": {"adj": ["\\operatorname{adj}", 0]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/67_Hypothesis_testing';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '_pages/8.1_Vectors_Solutions';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Hypothesis Testing - Solutions" href="67.1_Hypothesis_testing_Solutions.html" />
-    <link rel="prev" title="Correlation and Regression - Solutions" href="5.1_Correlation_and_regression_Solutions.html" />
+    <link rel="next" title="Matrices" href="9_Matrices.html" />
+    <link rel="prev" title="Vectors" href="8_Vectors.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -211,16 +211,16 @@
 <li class="toctree-l2"><a class="reference internal" href="5.1_Correlation_and_regression_Solutions.html">Correlation and Regression - Solutions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Hypothesis Testing</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="67_Hypothesis_testing.html">Hypothesis Testing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="67.1_Hypothesis_testing_Solutions.html">Hypothesis Testing - Solutions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="8_Vectors.html">Vectors</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="8.1_Vectors_Solutions.html">Vectors</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="8_Vectors.html">Vectors</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Vectors - Solutions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="9_Matrices.html">Matrices</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="9.1_Matrices_Solutions.html">Matrices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="9.1_Matrices_Solutions.html">Matrices - Solutions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="a_Matrices_cont.html">Matrices (continued)</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
@@ -280,7 +280,7 @@
       
       
       
-      <li><a href="../_sources/_pages/67_Hypothesis_testing.md" target="_blank"
+      <li><a href="../_sources/_pages/8.1_Vectors_Solutions.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -362,7 +362,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Hypothesis Testing</h1>
+    <h1>Vectors - Solutions</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -376,55 +376,47 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="hypothesis-testing">
-<h1>Hypothesis Testing<a class="headerlink" href="#hypothesis-testing" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="vectors-solutions">
+<h1>Vectors - Solutions<a class="headerlink" href="#vectors-solutions" title="Link to this heading">#</a></h1>
 <p>In this week’s tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.</p>
-<div class="exercise admonition" id="hypte-ex1">
+<div class="exercise admonition" id="vecs-ex1-sol">
 
-<p class="admonition-title"><span class="caption-number">Exercise 21 </span></p>
+<p class="admonition-title">Exercise (23)</p>
 <section id="exercise-content">
-<p>Complete the following example by hand, then use a spreadsheet to check your answer. You can use the <code class="docutils literal notranslate"><span class="pre">=NORMDIST()</span></code> function to compute the area under a normal distribution to the left of a given value, remembering to set the ‘cumulative’ variable to TRUE.</p>
-<p>A judo instructor, Anna, claims that the mean time spent by students in the dojo is 170 minutes. The times, in minutes, spent in the dojo by a random sample of 9 judo students were:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>191 134 218 164 201 196 107 228 294
-</pre></div>
-</div>
-<p>  (a) Test Anna’s claim, using the 5% significance level. Assume that the data come from a normal distribution with standard deviation of 45 minutes.</p>
-<p>Further investigation revealed that the times in the sample were not the times from arriving in the dojo, but the times from arrivals being recorded by the judo club receptionist, which happened after they had gone inside. The effect of this is that each of the times in the sample should be increased by 5 minutes.</p>
-<p> (b) How, if at all, does this further information affect your conclusion in part (a)?</p>
+<p>(a)</p>
+<p>[<img alt="A set of x,y-axes with the given points plotted" src="../_images/dot-product-axes.png" />]</p>
+<p>(b) The pairs are:</p>
+<div class="math notranslate nohighlight">
+\[ab, ac, ad, bc, bd, cd\]</div>
+<p>(c) The dot products, in order from most negative to most positive, are:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\mathbf{b} \cdot \mathbf{c} = 4 \cdot (-3) + 2 \cdot 1 = -10\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{c} \cdot \mathbf{d} = (-3) \cdot 1 + 1 \cdot (-2) = -5\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{a} \cdot \mathbf{c} = 2 \cdot (-3) + 2 \cdot 1 = -4\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{a} \cdot \mathbf{d} = 2 \cdot 1 + 2 \cdot (-2) = -2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{b} \cdot \mathbf{d} = 4 \cdot 1 + 2 \cdot (-2) = 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbf{a} \cdot \mathbf{b} = 2 \cdot 4 + 2 \cdot 2 = 12\)</span></p></li>
+</ul>
 </section>
-</div>
-<div class="exercise admonition" id="hypte-ex2">
+</div><div class="exercise admonition" id="vecs-ex2-sol">
 
-<p class="admonition-title"><span class="caption-number">Exercise 22 </span></p>
+<p class="admonition-title">Exercise (24)</p>
 <section id="exercise-content">
-<p>Complete the example below by hand, then use a spreadsheet to check your answer. You can use the <code class="docutils literal notranslate"><span class="pre">=CHISQ()</span></code> function, passing it a 2-by-2 array of observed values and a 2-by-2 array of expected values. Compare the probability to the value given by the table.</p>
-<p>Two groups of patients took part in a clinical trial for a new drug for a certain medical condition. One of the two groups was given the drug whilst the other group was given a placebo - a “fake” drug that has no physical effect on the medical condition.</p>
-<p>The results are summarized in the table below.</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p></p></th>
-<th class="head"><p><em>Placebo</em></p></th>
-<th class="head"><p><em>Drug</em></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Condition Improved</p></td>
-<td><p>16</p></td>
-<td><p>37</p></td>
-</tr>
-<tr class="row-odd"><td><p>Condition Not Improved</p></td>
-<td><p>43</p></td>
-<td><p>24</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>Use a <span class="math notranslate nohighlight">\(\chi^2\)</span> test at the 5% level of significance to investigate whether there is any association between the type of drug the patient was given and the improvement or not in their condition.</p>
+<p>No solutions here (exploratory only)</p>
 </section>
-</div>
-<div class="toctree-wrapper compound">
-</div>
+</div><div class="exercise admonition" id="vecs-ex3-sol">
+
+<p class="admonition-title">Exercise (25)</p>
+<section id="exercise-content">
+<p>(b)</p>
+<p> (i) <span class="math notranslate nohighlight">\((1,2,3) \cdot (4,−5,6) = 4 − 10 + 18 = 12.\)</span></p>
+<p> (ii) <span class="math notranslate nohighlight">\((−4,−9) \cdot (−1,2) = = 4 − 18 = −14.\)</span></p>
+<p> (iii) <span class="math notranslate nohighlight">\(\mathbf{a}\cdot \mathbf{b} =(6 \times 4) + (−1 \times c)+(3 \times (−2))=24−c−6=18−c\)</span>
+In order for them to be perpendicular we need <span class="math notranslate nohighlight">\(\mathbf{a} \cdot \mathbf{b} = 0 = 18-c\)</span>, or <span class="math notranslate nohighlight">\(c=18\)</span>.</p>
+<p>Double check: <span class="math notranslate nohighlight">\(\mathbf{a} \cdot \mathbf{b} =(6,−1,3)\cdot(4,18,−2)=0\)</span>.
+.</p>
 </section>
+</div></section>
 
     <script type="text/x-thebe-config">
     {
@@ -457,20 +449,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="5.1_Correlation_and_regression_Solutions.html"
+       href="8_Vectors.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Correlation and Regression - Solutions</p>
+        <p class="prev-next-title">Vectors</p>
       </div>
     </a>
     <a class="right-next"
-       href="67.1_Hypothesis_testing_Solutions.html"
+       href="9_Matrices.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Hypothesis Testing - Solutions</p>
+        <p class="prev-next-title">Matrices</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
