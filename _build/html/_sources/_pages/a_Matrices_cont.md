@@ -24,8 +24,10 @@ In this week's tutorial, we will use the techniques from the previous lecture to
 
 [![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut10-data1.csv) [tut10-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut10-data1.csv)
 
+The data concerns house prices in Perth, Australia, and the columns include the address, the price in thousands of AUSD, the number of bedrooms in the house and the distance to the nearest school (adapted from [this dataset](https://www.kaggle.com/datasets/syuzai/perth-house-prices/data), CC-BY-NC-SA 4.0 Muhammad S. Zainal). 
+
 (b) Highlight a three-by-three box of cells elsewhere in the spreadsheet, and create a box around it. Use formulae to create a covariance matrix for the three datasets.
 
-(c) Use blank cells in the spreadsheet to type a description of the meaning of the entries in the covariance matrix.
+(c) Use blank cells in the spreadsheet to type a description of the meaning of the entries in the covariance matrix. Does this match what you would expect to see?
 
 ```
