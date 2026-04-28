@@ -74,7 +74,6 @@ For each of the datasets below, calculate the covariance - first by hand, then u
 
 ```
 
-
 ```{exercise}
 :label: correg-ex2
 
