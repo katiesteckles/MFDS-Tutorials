@@ -31,9 +31,9 @@ The materials are intended for students to work through during the tutorial sess
 
 ### Practice Papers
 
-* <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20A.pdf">Practice Paper A</a>
-* <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20B.pdf">Practice Paper B</a>
-* <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20C.pdf">Practice Paper C</a>
+* <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20A.pdf">Practice Paper A</a> - <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/Solutions%20-%20Practice%20Paper%20A.pdf">Solutions</a>
+* <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20B.pdf">Practice Paper B</a> - <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/Solutions%20-%20Practice%20Paper%20B.pdf">Solutions</a>
+* <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20-%20Practice%20Paper%20C.pdf">Practice Paper C</a> - <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/Solutions%20-%20Practice%20Paper%20C.pdf">Solutions</a>
 
 If any of the links above are broken, please send Katie an email or Teams message.
 
