@@ -27,7 +27,7 @@ The materials are intended for students to work through during the tutorial sess
 
 * <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20Lecture%209%20-%20Matrices.pdf">Week 9 (Matrices)</a> - <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20Lecture%209%20-%20Matrices%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20Lecture%209%20-%20Matrices%20Exercises%20(solutions).pdf">Exercises Solutions</a> - <a href="https://youtu.be/wWp_Kndlf08">Lecture recording</a>
 
-* <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20Lecture%2010%20-%20Matrices%20(continued).pdf">Week 10 (Matrices continued)</a> - <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20Lecture%2010%20-%20Matrices%20(continued)%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20Lecture%2010%20-%20Matrices%20(continued)%20Exercises%20(solutions).pdf">Exercises Solutions</a> - <a href="https://youtu.be/tEEu3Z2HJvE">Lecture recording</a>
+* <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20Lecture%2010%20-%20Matrices%20(continued).pdf">Week 10 (Matrices continued)</a> - <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20Lecture%2010%20-%20Matrices%20(continued)%20(completed).pdf">Completed</a> - <a href="https://katiesteckles.github.io/MFDS-Tutorials/resources/pdfs/MFDS%20Lecture%2010%20-%20Matrices%20(continued)%20Exercises%20(Solutions).pdf">Exercises Solutions</a> - <a href="https://youtu.be/tEEu3Z2HJvE">Lecture recording</a>
 
 ### Practice Papers
 
