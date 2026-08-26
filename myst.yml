@@ -39,7 +39,8 @@ project:
         - file: _pages/a.1_Matrices_cont_Solutions.md
 site:
   options:
-    logo: _images/MFDS_logo.png
+    logo: _images/logo-wide.png
+    logo_dark: _images/logo-wide-w.png
     favicon: _images/favicon.png
     folders: true
     hide_authors: true
