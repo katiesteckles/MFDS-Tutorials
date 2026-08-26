@@ -4,7 +4,8 @@
 
 In this week's tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.
 
-```{exercise}
+```{admonition} Exercise 4.1
+:class: tip
 :label: infst-ex1
 
 (a) Load this [Sampling Distribution Simulator](https://onlinestatbook.com/stat_sim/sampling_dist/) in a browser window, then arrange it so you can see it alongside this page. Click the 'Begin' button in the top left so a yellow page loads.
@@ -19,7 +20,8 @@ In this week's tutorial, we will use the techniques from the previous lecture to
 
 ```
 
-```{exercise}
+```{admonition} Exercise 4.2
+:class: tip
 :label: infst-ex2
 
 Type your answers to this question into a text file or document, and save it alongside your other files from this module. Discuss your answers with the people nearby before writing your own answer.
@@ -48,12 +50,13 @@ Give one advantage and one disadvantage of carrying out this survey using
 
 ```
 
-```{exercise}
+```{admonition} Exercise 4.3
+:class: tip
 :label: infst-ex3
 
 (a) Download the CSV file linked below, and import it into a spreadsheet. The data shows the number of hire bikes used each day in Washington DC in 2011/12 (credit: <a href="https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset">Hadi Fanaee-T</a>).
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut4-data1.csv) [tut4-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut4-data1.csv)
+[🗒️ tut4-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut4-data1.csv)
 
 (b) Use one of the functions below to extract random samples of size 5 from the data, by pasting it in a cell somewhere nearby:
 

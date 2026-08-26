@@ -4,7 +4,8 @@
 
 In this week's tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.
 
-```{exercise}
+```{admonition} Exercise 3.1
+:class: tip
 :label: dist-ex1
 
 (a) Open a blank spreadsheet, and create cells containing the numbers 0 and 1 (labelling them 'mu' and 'sigma'). Create a column of values ranging from -5 to 5, in increments of 0.25. Use the `=NORM.DIST()` function to create a column next to your first one, which calculates the height of the normal distribution for each value in your column, using the values of $\mu$ and $\sigma$ in the cells. Recall that `NORM.DIST` takes as inputs $x$, $\mu$, $\sigma$ (the standard deviation, not the variance!) and a `TRUE`/`FALSE` value for whether or not you want a cumulative distribution.
@@ -27,7 +28,8 @@ Hint: you will want to use dollars to fix the cell reference, so you can use the
 
 ```
 
-```{exercise}
+```{admonition} Exercise 3.2
+:class: tip
 :label: dist-ex2
 
 (a) Which of the following datasets might you expect to follow a normal distribution?
@@ -41,13 +43,14 @@ Hint: you will want to use dollars to fix the cell reference, so you can use the
 
 (b) Download the CSV file linked below, and import it into a spreadsheet.
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv) [tut3-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv)
+[🗒️ tut3-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut3-data1.csv)
 
 (c) For each dataset, plot the data on a histogram and decide whether you think this data is normally distributed. Can you match up the datasets to the list above?
 
 ```
 
-```{exercise}
+```{admonition} Exercise 3.3
+:class: tip
 :label: dist-ex3
 
 (a) $X \sim N(31, 2.1^2)$. Using the table, then checking your answer with a spreadsheet formula, find:

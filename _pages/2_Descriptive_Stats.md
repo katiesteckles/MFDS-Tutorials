@@ -7,12 +7,13 @@ In this week's tutorial, we will use techniques from statistics to complete a mi
 In the below, where you are asked to calculate 'by hand', you can use a calculator, but should work it out yourself rather than asking the spreadsheet to calculate it.
 
 
-```{exercise}
+```{admonition} Exercise 2.1
+:class: tip
 :label: desc-ex1
 
 (a) Download the CSV file linked below, and import it into a spreadsheet.
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data1.csv) [tut2-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data1.csv)
+[🗒️ tut2-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data1.csv)
 
 (b) Select one whole column from the data, and use **Insert > Scatter Plot** to create a chart of the data. Use **Switch Row/Column** to make it into a one-dimensional plot showing the values on a single line. (Remember that multiple points with the same value will show as a single point.)
 
@@ -24,12 +25,13 @@ In the below, where you are asked to calculate 'by hand', you can use a calculat
 
 ```
 
-```{exercise}
+```{admonition} Exercise 2.2
+:class: tip
 :label: desc-ex2
 
 (a) Download the CSV file linked below, and import it into a spreadsheet. The data records measurements of the sizes of the petals and sepals of a particular species of iris.
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2a.csv) [tut2-data2a.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2a.csv)
+[🗒️ tut2-data2a.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2a.csv)
 
 (b) Calculate the mean, median, mode, variance and standard deviation for each of the datasets.
 
@@ -37,7 +39,7 @@ In the below, where you are asked to calculate 'by hand', you can use a calculat
 
 (d) Download the CSV file linked below, and import it into a spreadsheet. The data records the same measurements as the first, but for a different species of iris.
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2b.csv) [tut2-data2b.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2b.csv)
+[🗒️ tut2-data2b.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data2b.csv)
 
 (e) From looking at the table, which of the datasets would you expect to have the smallest/largest mean and smallest/largest standard deviation? (Make notes in the spreadsheet to record your predictions.)
 
@@ -53,12 +55,13 @@ Data: Fisher, R. (1936). Iris [Dataset]. UCI Machine Learning Repository. [https
 
 ```
 
-```{exercise}
+```{admonition} Exercise 2.3
+:class: tip
 :label: desc-ex3
 
 (a) Download the CSV file linked below, and import it into a spreadsheet.
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data3.csv) [tut2-data3.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data3.csv)
+[🗒️ tut2-data3.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut2-data3.csv)
 
 (b) Pick 4 of the datasets (including $x$ and $y$ data) from the 13 sets, and for each one, create a scatter plot of the $x$ and $y$ values against each other on a pair of axes, by creating a chart in Excel.
 

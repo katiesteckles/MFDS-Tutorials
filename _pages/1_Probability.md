@@ -7,7 +7,8 @@ The `=COUNTIF()` function takes two inputs: the range you are counting over, and
 
 For example, `=COUNTIF(A1:A4, ">3")` will tell me how many of the entries in the range `A1:A4` are greater than 3. You can also use `">=3"` for 'greater than or equal to three'.
 
-```{exercise}
+```{admonition} Exercise 1.1
+:class: tip
 :label: prob-ex1
 
 (a) Create a blank spreadsheet, and type in a list of random values, including numbers and text. Some of them should be the same as each other.
@@ -16,12 +17,13 @@ For example, `=COUNTIF(A1:A4, ">3")` will tell me how many of the entries in the
 
 ```
 
-```{exercise}
+```{admonition} Exercise 1.2
+:class: tip
 :label: prob-ex2
 
 (a) Download the CSV file linked below, and import it into a spreadsheet.
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data1.csv) [tut1-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data1.csv)
+[🗒️ tut1-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data1.csv)
 
 The data contains a list of stops on the Manchester Metrolink, with their station codes, fare zone and date of opening.
 
@@ -45,12 +47,13 @@ The `=COUNTIFS()` function allows you to combine multiple sets of ranges/criteri
 To check if how many rows in this table have the entries in both columns positive, we would use `=COUNTIFS(A1:A10,">0", B1:B10,">0")`. This would return 3, since this is true of rows 2, 5 and 10.
 ```
 
-```{exercise}
+```{admonition} Exercise 1.3
+:class: tip
 :label: prob-ex3
 
 (a) Download the CSV file linked below, and import it into a spreadsheet.
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv) [tut1-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv)
+[🗒️ tut1-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut1-data2.csv)
 
 The data contains details of the weather in Manchester, for the hour from noon to 1pm on each day in 2024 (which had 366 days).
 
@@ -70,12 +73,13 @@ The data contains details of the weather in Manchester, for the hour from noon t
 
 ```
 
-```{exercise}
+```{admonition} Exercise 1.4
+:class: tip
 :label: prob-ex4
 
 (a) Download the CSV file from last week (with the list of Scrabble tiles and their frequencies/scores), and import it into a spreadsheet.
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv) [tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv)
+[🗒️ tut0-data2.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut0-data2.csv)
 
 (b) Let $s=3$, and $f=2$. Let $A =$ 'a tile has a score greater than or equal to $s$' and $B= $ 'a tile occurrs in the set with frequency greater than or equal to $f$'. What is $P(A|B)$ for each of the tiles? Build a spreadsheet to find the  conditional probabilities by counting the number of tiles which satisfy both. Set it up using a cell containing the values of $s$ and $f$, and use references with dollar symbols to those cells.
 
@@ -88,7 +92,8 @@ The data contains details of the weather in Manchester, for the hour from noon t
 For a lottery with $n$ numbers to choose from, of which you need to match $k$ to win the jackpot, the number of possible combinations that could be drawn is "$n$ choose $k$", which can be calculated using the `=COMBIN()` function (which takes as inputs $n$ and $k$). The probability of winning the jackpot is 1 divided by the number of combinations (as exactly one of them will be the winning set of numbers).
 
 
-```{exercise}
+```{admonition} Exercise 1.5
+:class: tip
 :label: prob-ex5
 
 (a) Search online to find out information about lotteries in different countries. For each one, determine how many numbers are used, how many balls are drawn, how frequently draws operate, and how many numbers you need to match to win the jackpot.
