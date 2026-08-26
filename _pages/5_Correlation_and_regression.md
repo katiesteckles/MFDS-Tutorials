@@ -4,7 +4,8 @@
 
 In this week's tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.
 
-```{exercise}
+```{admonition} Exercise 5.1
+:class: tip
 :label: correg-ex1
 
 For each of the datasets below, calculate the covariance - first by hand, then using a table in a spreadsheet (with columns for $x$, $x-\bar{x}$, $y$ and $y-\bar{y}$). Then check using the `COVARIANCE.S()` function.
@@ -74,7 +75,8 @@ For each of the datasets below, calculate the covariance - first by hand, then u
 
 ```
 
-```{exercise}
+```{admonition} Exercise 5.2
+:class: tip
 :label: correg-ex2
 
 (a) Choose your favourite example from the [Tyler Vigen Spurious Correlations website](https://www.tylervigen.com/spurious-correlations) (you can use the 'Random' link to generate a random entry, or scroll down the full list).
@@ -89,7 +91,8 @@ For each of the datasets below, calculate the covariance - first by hand, then u
 
 ```
 
-```{exercise}
+```{admonition} Exercise 5.3
+:class: tip
 :label: correg-ex3
 
 For each of the datasets in Exercise 18, the values of $a$ and $b$ are given (for the regression line $y = a + bx$). Which way round are the two values? Examine the data and make a prediction, then plot the data in Excel on a scatter plot, and use the `=LINEST()` function to check.

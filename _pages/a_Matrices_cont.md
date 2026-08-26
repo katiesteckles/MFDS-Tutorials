@@ -4,12 +4,13 @@
 
 In this week's tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.
 
-```{exercise}
+```{admonition} Exercise 11.1
+:class: tip
 :label: matsc-ex1
 
 (a) Load the Interactive Row Reduction applet below in a browser window.
 
-[Interactive Row Reduction](https://textbooks.math.gatech.edu/ila/demos/rrinter.html)
+[🔗 Interactive Row Reduction](https://textbooks.math.gatech.edu/ila/demos/rrinter.html)
 
 (b) Use it to work through one of the Gauss-Jordan elimination examples you've done from the lecture content (either a matrix inversion or solving a system). Start by inputting the initial matrix and then describe each row operation. Check that the matrix matches your solution at each stage.
 
@@ -17,12 +18,13 @@ In this week's tutorial, we will use the techniques from the previous lecture to
 
 ```
 
-```{exercise}
+```{admonition} Exercise 11.2
+:class: tip
 :label: matsc-ex2
 
 (a) Download the CSV file linked below, and import it into a spreadsheet.
 
-[![CSV icon](../_images/csv-icon-sq.png)](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut10-data1.csv) [tut10-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut10-data1.csv)
+[🗒️ tut10-data1.csv](https://katiesteckles.github.io/MFDS-Tutorials/resources/tut10-data1.csv)
 
 The data concerns house prices in Perth, Australia, and the columns include the address, the price in thousands of AUSD, the number of bedrooms in the house and the distance to the nearest school (adapted from [this dataset](https://www.kaggle.com/datasets/syuzai/perth-house-prices/data), CC-BY-NC-SA 4.0 Muhammad S. Zainal). 
 

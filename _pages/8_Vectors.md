@@ -4,7 +4,8 @@
 
 In this week's tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.
 
-```{exercise}
+```{admonition} Exercise 8.1
+:class: tip
 :label: vecs-ex1
 
 (a) Plot the vectors given below on a pair of axes. (Graph paper will be available).
@@ -20,24 +21,26 @@ $$\mathbf{a} = (2, 2) \qquad
 
 ```
 
-```{exercise}
+```{admonition} Exercise 8.2
+:class: tip
 :label: vecs-ex2
 
 (a) Load the Geogebra file by clicking the link.
 
-[![CSV icon](../_images/ggb-icon.png)](https://www.geogebra.org/classic/ksk4j5fr) [GeoGebra - Dot Product](https://www.geogebra.org/classic/ksk4j5fr)
+[🔗 GeoGebra - Dot Product](https://www.geogebra.org/classic/ksk4j5fr)
 
 (b) Drag the points at the ends of the vectors to change their values, and observe what happens to the value of the dot product.
 
 
 ```
 
-```{exercise}
+```{admonition} Exercise 8.3
+:class: tip
 :label: vecs-ex3
 
 (a) Open the link below and observe that Wolfram|Alpha can calulate the dot product of two vectors.
 
-[Wolfram|Alpha - Dot Product example](https://www.wolframalpha.com/input?i=%7B1%2C2%2C3%7D.%7B2%2C3%2C4%7D)
+[🔗 Wolfram|Alpha - Dot Product example](https://www.wolframalpha.com/input?i=%7B1%2C2%2C3%7D.%7B2%2C3%2C4%7D)
 
 (b) Change the values in the brackets to calculate other dot products. Use the examples below, calculating them first by hand then checking using the website.
 

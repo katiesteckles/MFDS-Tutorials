@@ -1,0 +1,1 @@
+[6G5Z0050 Maths for Data Science on Moodle](https://moodle.mmu.ac.uk/course/view.php?id=205534)

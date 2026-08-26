@@ -2,9 +2,10 @@
 
 # Matrices
 
-In this week's tutorial, we will use the techniques from the previous lecture to complete a mini-project. You should save any files you work on as spreadsheets, so you can refer back to them later.
+In this week's tutorial, we will use the techniques from the previous lecture to complete a mini-project.
 
-```{exercise}
+```{admonition} Exercise 9.1
+:class: tip
 :label: mats-ex1
 
 $A = \begin{pmatrix} 1 & 1 & 3\\ 6 & 1 & 2\\ 2 & 4 & 5 \end{pmatrix}$
@@ -19,7 +20,8 @@ Let $A'$ be the matrix created by reflecting the matrix $A$ from top to bottom, 
          
 ```
 
-```{exercise}
+```{admonition} Exercise 9.2
+:class: tip
 :label: mats-ex2
 
 $C = \begin{pmatrix} 3 & -1 & 4\\ 1 & 5 & 2\\ -2 & -1 & 5 \end{pmatrix}$
@@ -28,29 +30,30 @@ $C = \begin{pmatrix} 3 & -1 & 4\\ 1 & 5 & 2\\ -2 & -1 & 5 \end{pmatrix}$
 
 &emsp;(b) What is $\operatorname{det}C^{\mathsf{T}}$?
 
-&emsp;(c) What is $\operatorname{det}(C + \begin{pmatrix} 0 & 0 & 0\\
+&emsp;(c) What is $\operatorname{det}\bigg(C + \begin{pmatrix} 0 & 0 & 0\\
      0 & 0 & 0\\
     2 & 1 & -5
-     \end{pmatrix})$?
+     \end{pmatrix}\bigg)$?
      
-&emsp;(d) What is $\operatorname{det}(C - \begin{pmatrix} 0 & 0 & 0\\
+&emsp;(d) What is $\operatorname{det}\bigg(C - \begin{pmatrix} 0 & 0 & 0\\
      0 & 0 & 0\\
     2 & 1 & -5
-     \end{pmatrix})$?
+     \end{pmatrix}\bigg)$?
      
-&emsp;(e) What is $\operatorname{det}(C - \begin{pmatrix} 0 & -1 & 4\\
+&emsp;(e) What is $\operatorname{det}\bigg(C - \begin{pmatrix} 0 & -1 & 4\\
      1 & 0 & 2\\
     -2 & -1 & 0
-     \end{pmatrix})$?
+     \end{pmatrix}\bigg)$?
 
 ```
 
-```{exercise}
+```{admonition} Exercise 9.3
+:class: tip
 :label: mats-ex3
 
 (a) Open the link below and observe that Wolfram|Alpha can calulate the determinant of a matrix.
 
-[Wolfram|Alpha - Matrix Determinant example](https://www.wolframalpha.com/input?i=determinant+of+%7B%7B2%2C1%7D%2C%7B1%2C3%7D%7D
+[🔗 Wolfram|Alpha - Matrix Determinant example](https://www.wolframalpha.com/input?i=determinant+of+%7B%7B2%2C1%7D%2C%7B1%2C3%7D%7D
 )
 
 (b) Note that for a $2 \times 2$ matrix, the value of the determinant is equal to the area of a parallelogram made using the two vectors. Change the values in the matrix to see how this affects the shape, and the determinant.

@@ -26,3 +26,6 @@
 .DS_Store
 .DS_Store
 .DS_Store
+
+# MyST build outputs
+_build
