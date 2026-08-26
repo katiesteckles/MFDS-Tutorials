@@ -5,7 +5,7 @@ This site contains materials for the Maths for <a href="https://xkcd.com/2582/">
 
 The materials are intended for students to work through during the tutorial sessions each week during the module, and to practice using the mathematical techniques they have learned in the previous week's lecture.
 
----
+<!---
 
 ### Lecture Notes:
 
@@ -37,11 +37,10 @@ The materials are intended for students to work through during the tutorial sess
 
 If any of the links above are broken, please send Katie an email or Teams message.
 
----
+--->
 
 `````{grid}
 ````{grid-item}
-:columns: 2
 ```{image} ../_images/katie_steckles.jpg
 :width: 125px
 :align: left

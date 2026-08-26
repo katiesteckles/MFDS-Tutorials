@@ -11,6 +11,8 @@ project:
       provider: github
       url: 'https://katiesteckles.github.io/MFDS-Tutorials'
       ref: main
+  static_files:
+    - resources
   toc:
     - file: _pages/intro.md
     - file: _pages/0_Excel.md
