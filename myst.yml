@@ -16,29 +16,29 @@ project:
   toc:
     - file: _pages/intro.md
     - file: _pages/0_Excel.md
-    - file: _pages/1_Probability.md
-    - file: _pages/2_Descriptive_Stats.md
-    - file: _pages/3_Probability_Distributions.md
-    - file: _pages/4_Inferential_Stats.md
-    - file: _pages/5_Correlation_and_regression.md
-    - file: _pages/6_Hypothesis_testing.md
-    - file: _pages/7_Hypothesis_testing.md
-    - file: _pages/8_Vectors.md
-    - file: _pages/9_Matrices.md
-    - file: _pages/a_Matrices_cont.md
-    - title: Solutions
-      children:
-        - file: _pages/0.1_Excel_Solutions.md
-        - file: _pages/1.1_Probability_Solutions.md
-        - file: _pages/2.1_Desc-Stats_Solutions.md
-        - file: _pages/3.1_Probability_Distributions_Solutions.md
-        - file: _pages/4.1_Inferential_Stats_Solutions.md
-        - file: _pages/5.1_Correlation_and_regression_Solutions.md
-        - file: _pages/6.1_Hypothesis_testing_Solutions.md
-        - file: _pages/7.1_Hypothesis_testing_Solutions.md
-        - file: _pages/8.1_Vectors_Solutions.md
-        - file: _pages/9.1_Matrices_Solutions.md
-        - file: _pages/a.1_Matrices_cont_Solutions.md
+#    - file: _pages/1_Probability.md
+#    - file: _pages/2_Descriptive_Stats.md
+#    - file: _pages/3_Probability_Distributions.md
+#    - file: _pages/4_Inferential_Stats.md
+#    - file: _pages/5_Correlation_and_regression.md
+#    - file: _pages/6_Hypothesis_testing.md
+#    - file: _pages/7_Hypothesis_testing.md
+#    - file: _pages/8_Vectors.md
+#    - file: _pages/9_Matrices.md
+#    - file: _pages/a_Matrices_cont.md
+#    - title: Solutions
+#      children:
+#        - file: _pages/0.1_Excel_Solutions.md
+#        - file: _pages/1.1_Probability_Solutions.md
+#        - file: _pages/2.1_Desc-Stats_Solutions.md
+#        - file: _pages/3.1_Probability_Distributions_Solutions.md
+#        - file: _pages/4.1_Inferential_Stats_Solutions.md
+#        - file: _pages/5.1_Correlation_and_regression_Solutions.md
+#        - file: _pages/6.1_Hypothesis_testing_Solutions.md
+#        - file: _pages/7.1_Hypothesis_testing_Solutions.md
+#        - file: _pages/8.1_Vectors_Solutions.md
+#        - file: _pages/9.1_Matrices_Solutions.md
+#        - file: _pages/a.1_Matrices_cont_Solutions.md
 site:
   options:
     logo: _images/logo-wide.png
