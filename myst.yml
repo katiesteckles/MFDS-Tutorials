@@ -44,6 +44,7 @@ site:
     favicon: _images/favicon.png
     folders: true
     hide_authors: true
+    hide_outline: true
   template: book-theme
   parts:
     primary_sidebar_footer: _pages/sidebar-footer.md

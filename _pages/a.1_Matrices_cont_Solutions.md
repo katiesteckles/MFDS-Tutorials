@@ -5,7 +5,6 @@
 ```{admonition} Exercise 11.1
 :class: tip 29
 :label: matsc-ex1-sol
-:nonumber:
 
 No solutions here, as this is just for practice.
 
