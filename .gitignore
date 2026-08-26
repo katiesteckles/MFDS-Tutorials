@@ -29,3 +29,4 @@
 
 # MyST build outputs
 _build
+.DS_Store
